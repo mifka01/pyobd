@@ -1,0 +1,2514 @@
+MONITOROVÁNÍ CHYBNÝCH ZÁŽEHŮ
+MONITOROVÁNÍ PALIVOVÉHO SYSTÉMU
+MONITOROVÁNÍ KOMPONENT
+MONITOROVÁNÍ KATALYZÁTORU
+MONITOROVÁNÍ VYHŘÍVANÉHO KATALYZÁTORU
+MONITOROVÁNÍ ODPAŘOVACÍHO SYSTÉMU
+MONITOROVÁNÍ SYSTÉMU SEKUNDÁRNÍHO VZDUCHU
+MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ
+MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ OHŘÍVAČŮ
+MONITOROVÁNÍ SYSTÉMU EGR VVT
+MONITOROVÁNÍ KATALYZÁTORU NMHC
+MONITOROVÁNÍ NÁSLEDNÉHO ZPRACOVÁNÍ EMISÍ NOX SCR
+MONITOROVÁNÍ PLNICÍHO TLAKU
+MONITOROVÁNÍ SENZORU VÝFUKOVÝCH PLYNŮ
+MONITOROVÁNÍ PM FILTRU
+Připojení....
+Připojení k automobilu
+Komunikace inicializována...
+Připojení k autu!
+dokončeno
+Dostupné na
+Kompletní
+Neúplné
+Žádné kódy DTC (kódy vymazány)
+jednotka
+Odpojení
+Senzor
+Hodnota
+Grafy
+Zastavení snímku
+Získat DTC
+Čistý DTC
+Kód
+Stav
+Kód potíží
+FAST
+Protokol
+Stav spojení
+Verze s kabelem
+Port COM
+Číslo VIM
+Napětí ELM
+Popis
+Dostupné na
+Testy
+CHYBNÝ ZÁŽEH VÁLCE 1
+CHYBNÝ ZÁŽEH VÁLCE 2
+CHYBNÝ ZÁŽEH VÁLCE 3
+CHYBNÝ ZÁŽEH VÁLCE 4
+CHYBNÝ ZÁŽEH VÁLCE 5
+CHYBNÝ ZÁŽEH VÁLCE 6
+CHYBNÝ ZÁŽEH VÁLCE 7
+CHYBNÝ ZÁŽEH VÁLCE 8
+CHYBNÝ ZÁŽEH VÁLCE 9
+CHYBNÝ ZÁŽEH VÁLCE 10
+CHYBNÝ ZÁŽEH VÁLCE 11
+CHYBNÝ ZÁŽEH VÁLCE 12
+Úroveň
+Zpráva
+Trace
+Zahájení aplikace
+E&xit
+Ukončení programu
+Konfigurace
+Konfigurace pyOBD
+Připojení
+Opětovné otevření a připojení k zařízení
+Odpojení
+Uzavření spojení se zařízením
+Získat DTC
+Získat kódy DTC
+Vymazat DTC
+Vymazání kódů DTC
+Vyhledávání kódů
+Vyhledávání kódů DTC
+O tomto programu
+Navštivte domovskou stránku programu
+Objednat rozhraní OBD-II
+&File
+&OBD-II
+&Trouble kódy
+&Nápověda
+Vymazat DTC?
+Jste si jisti, že si přejete
+vymazat všechny kódy DTC a
+zmrazení dat?
+Zrušit
+Klikněte zde pro objednání rozhraní ELM-USB
+Vyberte sériový port
+Výběr přenosové rychlosti
+RYCHLÝ nebo NORMÁLNÍ
+FAST
+NORMÁLNÍ
+Časový limit:
+Pokusy o opětovné připojení:
+Řídicí obvod regulátoru objemu paliva/otevřeno
+Řídicí obvod regulátoru objemu paliva Rozsah/výkon
+Nízký řídicí obvod regulátoru objemu paliva
+Řídicí obvod regulátoru objemu paliva vysoký
+Řídicí obvod/otevřený uzavírací ventil paliva 'A'
+Nízký řídicí obvod uzavíracího ventilu paliva 'A'
+Řídicí obvod uzavíracího ventilu paliva 'A' vysoký
+Výkon polohového systému motoru
+Výkon polohového systému motoru
+Obvod pohonu polohy vačkového hřídele 'A'
+Poloha vačkového hřídele 'A' - příliš pokročilé časování nebo výkon systému
+Poloha vačkového hřídele 'A' - nadměrné časování
+Poloha vačkového hřídele 'B' - obvod akčního členu
+Poloha vačkového hřídele 'B' - příliš pokročilé časování nebo výkon systému
+Poloha vačkového hřídele 'B' - nadměrné časování
+Korelace polohy klikového hřídele a polohy vačkového hřídele
+Korelace polohy klikového hřídele a polohy vačkového hřídele
+Korelace polohy klikového hřídele a polohy vačkového hřídele
+Korelace polohy klikového hřídele a polohy vačkového hřídele
+Obvod pohonu polohy vačkového hřídele 'A'
+Poloha vačkového hřídele 'A' - příliš pokročilé časování nebo výkon systému
+Poloha vačkového hřídele 'A' - nadměrné časování
+Poloha vačkového hřídele 'B' - obvod akčního členu
+Poloha vačkového hřídele 'B' - příliš pokročilé časování nebo výkon systému
+Poloha vačkového hřídele 'B' - nadměrné časování
+Rozsah/výkon okruhu ovládání sacího ventilu elektromagnetickým ventilem
+Obvod ovládání elektromagnetického ventilu výfukového potrubí Rozsah/výkon
+Rozsah/výkon okruhu ovládání sacího ventilu elektromagnetickým ventilem
+Obvod ovládání elektromagnetického ventilu výfukového potrubí Rozsah/výkon
+Řídicí obvod ohřívače HO2S
+Nízký řídicí obvod ohřívače HO2S
+HO2S Řídicí obvod topení High
+Obvod řízení obtokového ventilu turbodmychadla
+Nízký řídicí obvod obtokového ventilu turbodmychadla
+Obvod řízení obtokového ventilu turbodmychadla High
+Řídicí obvod ohřívače HO2S
+Nízký řídicí obvod ohřívače HO2S
+HO2S Řídicí obvod topení High
+Obvod řízení obtokového ventilu turbodmychadla/nadmychadla Rozsah/výkon
+Vyměněné signály snímače O2 Snímač banky 1/ Snímač banky 2 1
+Vyměněné signály snímače O2 Snímač 1 banky 2 / Snímač 2 banky 2
+Řídicí obvod ohřívače HO2S
+Nízký řídicí obvod ohřívače HO2S
+HO2S Řídicí obvod topení High
+Obvod/rozpínací cívka ovládání zvýšení tlaku turba/nadupávacího kompresoru
+Rozsah/výkon obvodu ovládacího cívky zvyšování tlaku turba/nadupaného nabíječe
+Nízký obvod elektromagnetické regulace zvýšení tlaku turba/nadupávacího kompresoru
+Obvod elektromagnetické regulace zvýšení tlaku turba/nadupaného nabíječe High
+Nadměrné otáčky turbíny turbodmychadla/nadmychadla
+Řídicí obvod ohřívače HO2S
+Nízký řídicí obvod ohřívače HO2S
+HO2S Řídicí obvod topení High
+Odolnost ohřívače HO2S
+Odolnost ohřívače HO2S
+Odolnost ohřívače HO2S
+Řídicí obvod ohřívače HO2S
+Nízký řídicí obvod ohřívače HO2S
+HO2S Řídicí obvod topení High
+Odolnost ohřívače HO2S
+Odolnost ohřívače HO2S
+Odolnost ohřívače HO2S
+Řídicí obvod ohřívače HO2S
+Nízký řídicí obvod ohřívače HO2S
+HO2S Řídicí obvod topení High
+Řízení vstřikovačů s podporou vzduchu Rozsah/výkon
+Řídicí obvod vstřikovače s podporou vzduchu nebo nízký obvod
+Vysoký řídicí obvod vstřikovače s podporou vzduchu
+MAP/MAF - korelace polohy škrticí klapky
+Korelace absolutního tlaku v kolektoru a barometrického tlaku
+Obvod snímače teploty okolního vzduchu
+Rozsah/výkon čidla teploty okolního vzduchu
+Nízký obvod snímače teploty okolního vzduchu
+Vysoký obvod snímače teploty okolního vzduchu
+Přerušovaný obvod snímače teploty okolního vzduchu
+Elektromagnetický obvod ovládání sacího ventilu
+Nízký stav obvodu elektromagnetického ovládání sacího ventilu
+Elektromagnetický obvod ovládání sacího ventilu vysoký
+Elektromagnetický obvod ovládání výfukového ventilu
+Nízký stav obvodu elektromagnetického ovládání výfukového ventilu
+Elektromagnetický obvod ovládání výfukového ventilu vysoký
+Elektromagnetický obvod ovládání sacího ventilu
+Nízký stav obvodu elektromagnetického ovládání sacího ventilu
+Elektromagnetický obvod ovládání sacího ventilu vysoký
+Elektromagnetický obvod ovládání výfukového ventilu
+Nízký stav obvodu elektromagnetického ovládání výfukového ventilu
+Elektromagnetický obvod ovládání výfukového ventilu vysoký
+Příliš nízký tlak v palivové liště/systému
+Příliš vysoký tlak v palivové liště/systému
+Regulátor tlaku paliva 1 Performance
+Řídicí obvod regulátoru tlaku paliva 1
+Nízký řídicí obvod regulátoru tlaku paliva 1
+Řídicí obvod regulátoru tlaku paliva 1 vysoký
+Zjištěna netěsnost palivového systému - velká netěsnost
+Zjištěna netěsnost palivového systému - malá netěsnost
+Obvod čidla teploty nasávaného vzduchu 2
+Snímač teploty nasávaného vzduchu 2 Rozsah/výkon obvodu
+Nízký obvod snímače teploty nasávaného vzduchu 2
+Obvod čidla teploty nasávaného vzduchu 2 vysoký
+Snímač teploty nasávaného vzduchu 2 Obvod přerušovaný / nepravidelný
+Okruh hmotnostního nebo objemového průtoku vzduchu
+Hmotnostní nebo objemový průtok vzduchu v okruhu Rozsah/výkon
+Hmotnostní nebo objemový okruh průtoku vzduchu Nízký příkon
+Obvod hromadného nebo objemového průtoku vzduchu Vysoký příkon
+Přerušovaný okruh hmotnostního nebo objemového průtoku vzduchu
+Obvod absolutního tlaku v kolektoru/barometrického tlaku
+Rozsah/výkon obvodu absolutního tlaku v kolektoru/barometrického tlaku
+Obvod absolutního tlaku v kolektoru/barometrického tlaku Nízký vstupní signál
+Obvod absolutního tlaku v rozdělovači/barometrického tlaku Vysoký příkon
+Obvod absolutního tlaku v kolektoru/barometrického tlaku Přerušovaný
+Obvod snímače teploty nasávaného vzduchu 1
+Obvod snímače teploty nasávaného vzduchu 1 Rozsah/výkon
+Nízký obvod snímače teploty nasávaného vzduchu 1
+Obvod snímače teploty nasávaného vzduchu 1 vysoký
+Snímač teploty nasávaného vzduchu 1 Obvod přerušovaný
+Obvod teploty chladicí kapaliny motoru
+Rozsah/výkon obvodu teploty chladicí kapaliny motoru
+Nízká teplota chladicí kapaliny motoru
+Vysoká teplota chladicí kapaliny motoru
+Obvod teploty chladicí kapaliny motoru Přerušovaný
+Snímač polohy škrticí klapky/pedálu/spínač 'A' Obvod
+Snímač polohy škrticí klapky/pedálu/spínač 'A' Rozsah/výkonnost obvodu
+Snímač polohy škrticí klapky/pedálu/spínač 'A' Obvod nízký
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'A' vysoký
+Snímač polohy škrticí klapky/pedálu/spínač 'A' Obvod přerušovaný
+Nedostatečná teplota chladicí kapaliny pro řízení paliva v uzavřené smyčce
+Nedostatečná teplota chladicí kapaliny pro stabilní provoz
+Příliš vysoká teplota nasávaného vzduchu
+Termostat chladicí kapaliny (teplota chladicí kapaliny pod regulační teplotou termostatu)
+Příliš nízký barometrický tlak
+Obvod snímače O2
+Nízké napětí v obvodu snímače O2
+Vysoké napětí v obvodu snímače O2
+Obvod snímače O2 s pomalou odezvou
+Obvod snímače O2 nezjištěna žádná aktivita
+Obvod ohřevu snímače O2
+Obvod snímače O2
+Nízké napětí v obvodu snímače O2
+Vysoké napětí v obvodu snímače O2
+Obvod snímače O2 s pomalou odezvou
+Obvod snímače O2 nezjištěna žádná aktivita
+Obvod ohřevu snímače O2
+Obvod snímače O2
+Nízké napětí v obvodu snímače O2
+Vysoké napětí v obvodu snímače O2
+Obvod snímače O2 s pomalou odezvou
+Obvod snímače O2 nezjištěna žádná aktivita
+Obvod ohřevu snímače O2
+Chyba dodávky paliva
+Chyba časování paliva
+Obvod snímače O2
+Nízké napětí v obvodu snímače O2
+Vysoké napětí v obvodu snímače O2
+Obvod snímače O2 s pomalou odezvou
+Obvod snímače O2 nezjištěna žádná aktivita
+Obvod ohřevu snímače O2
+Obvod snímače O2
+Nízké napětí v obvodu snímače O2
+Vysoké napětí v obvodu snímače O2
+Obvod snímače O2 s pomalou odezvou
+Obvod snímače O2 nezjištěna žádná aktivita
+Obvod ohřevu snímače O2
+Obvod snímače O2
+Nízké napětí v obvodu snímače O2
+Vysoké napětí v obvodu snímače O2
+Obvod snímače O2 s pomalou odezvou
+Obvod snímače O2 nezjištěna žádná aktivita
+Obvod ohřevu snímače O2
+Příliš vysoká teplota paliva
+Nesprávné složení paliva
+Ořezávání paliva
+Příliš štíhlý systém
+Příliš bohatý systém
+Ořezávání paliva
+Příliš štíhlý systém
+Příliš bohatý systém
+Obvod snímače složení paliva
+Rozsah/výkon obvodu snímače složení paliva
+Nízký obvod snímače složení paliva
+Vysoký obvod snímače složení paliva
+Obvod A snímače teploty paliva
+Snímač teploty paliva A Rozsah/výkon obvodu
+Nízký obvod snímače teploty paliva A
+Vysoký obvod snímače teploty paliva A
+Obvod A snímače teploty paliva přerušovaný
+Obvod B snímače teploty paliva
+Snímač teploty paliva B Rozsah/výkon obvodu
+Nízký obvod snímače teploty paliva B
+Vysoký obvod snímače teploty paliva B
+Obvod snímače teploty paliva B Přerušovaný
+Obvod snímače tlaku palivové lišty
+Rozsah/výkon obvodu snímače tlaku palivové lišty
+Nízký obvod snímače tlaku palivové lišty
+Vysoký obvod snímače tlaku palivové lišty
+Přerušovaný obvod snímače tlaku palivové lišty
+Snímač teploty motorového oleje
+Snímač teploty motorového oleje Rozsah/výkon
+Snímač teploty motorového oleje nízký
+Snímač teploty motorového oleje vysoký
+Snímač teploty motorového oleje Přerušovaný
+Vstřikovací obvod/otevřený
+Vstřikovací okruh/otevřený - válec 1
+Vstřikovací okruh/otevřený - válec 2
+Vstřikovací okruh/otevřený - válec 3
+Vstřikovací okruh/otevřený - válec 4
+Vstřikovací okruh/otevřený - válec 5
+Vstřikovací okruh/otevřený - válec 6
+Vstřikovací okruh/otevřený - válec 7
+Vstřikovací okruh/otevřený - válec 8
+Vstřikovací okruh/otevřený - válec 9
+Vstřikovací okruh/otevřený - válec 10
+Vstřikovací okruh/otevřený - válec 11
+Vstřikovací okruh/otevřený - válec 12
+Vstřikovač pro studený start 1
+Vstřikovač pro studený start 2
+Vypínací elektromagnet motoru
+Řídicí obvod vstřikovače/časování vstřikování
+Stav překročení teploty chladicí kapaliny motoru
+Stav přehřátí převodové kapaliny
+Stav překročení otáček motoru
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'B'
+Snímač polohy škrticí klapky/pedálu/spínač 'B' Rozsah/výkonnost obvodu
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'B' nízký
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'B' vysoký
+Snímač polohy škrticí klapky/pedálu/spínač 'B' Obvod přerušovaný
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'C'
+Snímač polohy škrticí klapky/pedálu/spínač 'C' Rozsah/výkonnost obvodu
+Snímač polohy škrticí klapky/pedálu/spínač 'C' Obvod nízký
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'C' vysoký
+Snímač polohy škrticí klapky/pedálu/spínač 'C' Obvod přerušovaný
+Primární okruh palivového čerpadla
+Nízký sekundární okruh palivového čerpadla
+Vysoký sekundární okruh palivového čerpadla
+Přerušovaný sekundární okruh palivového čerpadla
+Stav přeplňování turbodmychadla/nadupaného nabíječe
+Obvod 'A' snímače zvýšení tlaku turba/nadupaného nabíječe
+Snímač zvýšení tlaku turba/supernabíječky Obvod 'A' Rozsah/výkon
+Nízká úroveň obvodu 'A' snímače zvýšení tlaku turba/nadupávacího kompresoru
+Obvod 'A' snímače zvýšení tlaku turba/ supernabíječky vysoký
+Obvod 'B' snímače zvýšení tlaku turba/supernabíječky
+Snímač zvýšení tlaku turba/nadupávacího kompresoru Obvod 'B' Rozsah/výkon
+Nízký obvod snímače zvýšení tlaku 'B' turba/supernabíječky
+Obvod 'B' snímače zvýšení tlaku turba/nadupaného nabíječe vysoký
+Wastegate solenoid 'A' turbodmychadla/superdmychadla
+Wastegate Solenoid 'A' pro turbodmychadla a superdmychadla Rozsah/výkon
+Nízká hodnota Wastegate solenoidu 'A' turbodmychadla/superdmychadla
+Turbodmychadlo / superdmychadlo Wastegate Solenoid 'A' High
+Solenoid Wastegate 'B' turbodmychadla/superdmychadla
+Wastegate Solenoid 'B' pro turbodmychadla a superdmychadla Rozsah/Výkon
+Nízký ventil Wastegate 'B' turbodmychadla/superdmychadla
+Turbodmychadlo / superdmychadlo Wastegate Solenoid 'B' High
+Vstřikovací čerpadlo Řízení dávkování paliva 'A' (vačka/motor/vstřikovač)
+Vstřikovací čerpadlo Řízení dávkování paliva 'A' Rozsah/výkon (vačka/motor/vstřikovač)
+Vstřikovací čerpadlo Řízení dávkování paliva 'A' nízké (vačka/motor/vstřikovač)
+Vstřikovací čerpadlo Řízení dávkování paliva 'A' High (vačka/motor/vstřikovač)
+Vstřikovací čerpadlo Řízení dávkování paliva 'A' přerušované (vačka/motor/vstřikovač)
+Řízení dávkování paliva vstřikovacího čerpadla 'B' (vačka/motor/vstřikovač)
+Vstřikovací čerpadlo Řízení dávkování paliva 'B' Rozsah/výkon (vačka/motor/vstřikovač)
+Řídicí jednotka dávkování paliva vstřikovacího čerpadla 'B' nízká (vačka/motor/vstřikovač)
+Řízení dávkování paliva vstřikovacího čerpadla 'B' High (vačka/motor/vstřikovač)
+Vstřikovací čerpadlo Řízení dávkování paliva 'B' přerušované (vačka/motor/vstřikovač)
+Nízká úroveň vstřikovacího okruhu válce 1
+Vysoký obvod vstřikovače válce 1
+Válec 1 Příspěvek/Zůstatek
+Nízký vstřikovací okruh válce 2
+Vysoký obvod vstřikovače válce 2
+Válec 2 Příspěvek/Zůstatek
+Nízký vstřikovací okruh válce 3
+Vysoký obvod vstřikovače válce 3
+Válec 3 Příspěvek/Zůstatek
+Nízký vstřikovací okruh válce 4
+Vysoký obvod vstřikovače válce 4
+Příspěvek/vyvážení válce 4
+Nízký vstřikovací okruh válce 5
+Vysoký obvod vstřikovače válce 5
+Válec 5 Příspěvek/Zůstatek
+Nízký vstřikovací okruh válce 6
+Vysoký obvod vstřikovače válce 6
+Příspěvek/vyvážení válce 6
+Nízký obvod vstřikovače válce 7
+Vysoký obvod vstřikovače válce 7
+Válec 7 Příspěvek/Zůstatek
+Nízký vstřikovací okruh válce 8
+Vysoký obvod vstřikovače válce 8
+Válec 8 Příspěvek/vyrovnání
+Nízký obvod vstřikovače válce 9
+Vysoký obvod vstřikovače válce 9
+Válec 9 Příspěvek/Zůstatek
+Nízký obvod vstřikovače válce 10
+Vysoký obvod vstřikovače válce 10
+Válec 10 Příspěvek/Zůstatek
+Nízký obvod vstřikovače válce 11
+Vysoký obvod vstřikovače válce 11
+Válec 11 Příspěvek/Zůstatek
+Nízký obvod vstřikovače válce 12
+Vysoký obvod vstřikovače válce 12
+Válec 12 Příspěvek/Zůstatek
+Stav překročení rychlosti vozidla
+Přehřátí motorového oleje
+Turbodmychadlo/nadmychadlo Underboost
+Zjištěn náhodný/vícečetný nesprávný zážeh válců
+Zjištěn nesprávný zážeh válce 1
+Zjištěn nesprávný zážeh válce 2
+Zjištěn nesprávný zážeh válce 3
+Zjištěn nesprávný zážeh válce 4
+Zjištěn nesprávný zážeh válce 5
+Zjištěn nesprávný zážeh válce 6
+Zjištěn nesprávný zážeh válce 7
+Zjištěn nesprávný zážeh válce 8
+Zjištěn nesprávný zážeh válce 9
+Zjištěn nesprávný zážeh válce 10
+Zjištěn nesprávný zážeh válce 11
+Zjištěn nesprávný zážeh válce 12
+Zjištěn nesprávný zážeh při nízkém množství paliva
+Chybný zážeh jednoho válce (válec není uveden)
+Varianta systému polohy klikového hřídele Nebyla zjištěna
+Zjištěn chybný zážeh motoru při startu (prvních 1000 otáček)
+Hardware pro hrubé cesty není přítomen
+Signální obvod snímače nerovností 'A'
+Senzor Rough Road 'B'
+Vstupní obvod otáček zapalování/rozdělovače motoru
+Zapalování/rozdělovač Vstupní obvod otáček motoru Rozsah/výkon
+Vstupní obvod otáček zapalování/rozdělovače motoru bez signálu
+Vstupní obvod otáček zapalování/rozdělovače motoru Přerušovaný
+Chyba systému kontroly klepání
+Obvod snímače klepání 1
+Rozsah/výkon obvodu snímače klepání 1
+Nízký obvod snímače klepání 1
+Obvod snímače klepání 1 vysoký
+Vstupní obvod snímače klepání 1 přerušovaný
+Obvod snímače klepání 2
+Rozsah/výkon obvodu snímače klepání 2
+Nízký obvod snímače klepání 2
+Vysoký obvod snímače klepání 2
+Vstupní obvod snímače klepání 2 přerušovaný
+Obvod 'A' snímače polohy klikového hřídele
+Obvod snímače polohy klikového hřídele 'A' Rozsah/výkon
+Nízký obvod snímače polohy klikového hřídele 'A'
+Obvod snímače polohy klikového hřídele 'A' vysoký
+Obvod snímače polohy klikového hřídele 'A' přerušovaný
+Obvod 'A' snímače polohy vačkového hřídele
+Rozsah/výkon obvodu 'A' snímače polohy vačkového hřídele
+Nízký obvod snímače polohy vačkového hřídele 'A'
+Vysoký obvod snímače polohy vačkového hřídele 'A'
+Přerušovaný obvod snímače polohy vačkového hřídele 'A'
+Obvod 'A' snímače polohy vačkového hřídele
+Rozsah/výkon obvodu 'A' snímače polohy vačkového hřídele
+Nízký obvod snímače polohy vačkového hřídele 'A'
+Vysoký obvod snímače polohy vačkového hřídele 'A'
+Přerušovaný obvod snímače polohy vačkového hřídele 'A'
+Primární/sekundární obvod zapalovací cívky
+Primární/sekundární obvod zapalovací cívky 'A'
+Primární/sekundární obvod zapalovací cívky 'B'
+Primární/sekundární obvod zapalovací cívky 'C'
+Primární/sekundární obvod zapalovací cívky 'D'
+Primární/sekundární obvod zapalovací cívky 'E'
+Primární/sekundární obvod zapalovací cívky 'F'
+Primární/sekundární obvod zapalovací cívky 'G'
+Primární/sekundární obvod zapalovací cívky 'H'
+Primární/sekundární obvod zapalovací cívky 'I'
+Primární/sekundární obvod zapalovací cívky 'J'
+Primární/sekundární obvod zapalovací cívky 'K'
+Primární/sekundární obvod zapalovací cívky 'L'
+Zjištěn chybný zážeh - vypnuto doplňování paliva
+Rezervováno
+Obvod 'B' snímače polohy vačkového hřídele
+Obvod snímače polohy vačkového hřídele 'B' Rozsah/výkon
+Nízký obvod snímače polohy vačkového hřídele 'B'
+Vysoký obvod snímače polohy vačkového hřídele 'B'
+Obvod snímače polohy vačkového hřídele 'B' přerušovaný
+Referenční časování Signál s vysokým rozlišením 'A'
+Referenční časování Signál s vysokým rozlišením 'A' Příliš mnoho impulzů
+Referenční časování Signál s vysokým rozlišením 'A' Příliš málo impulzů
+Referenční časování Signál s vysokým rozlišením 'A' Přerušované/nepravidelné impulsy
+Referenční časování Signál s vysokým rozlišením 'A' Bez pulzu
+Referenční časování Signál s vysokým rozlišením 'B'
+Referenční časování Signál s vysokým rozlišením 'B' Příliš mnoho impulzů
+Referenční časování Signál s vysokým rozlišením 'B' Příliš málo impulzů
+Referenční časování Signál s vysokým rozlišením 'B' Přerušované/nepravidelné impulsy
+Referenční časování Signál s vysokým rozlišením 'B' Žádné impulsy
+Obvod žhavicí svíčky/ohřívače 'A'
+Obvod žhavicí svíčky/indikátoru topení
+Obvod žhavicí svíčky/ohřívače 'B'
+Vyhrazeno podle SAE J2012
+Vyhrazeno podle SAE J2012
+Obvod 'B' snímače polohy klikového hřídele
+Obvod snímače polohy klikového hřídele 'B' Rozsah/výkon
+Nízký obvod snímače polohy klikového hřídele 'B'
+Obvod snímače polohy klikového hřídele 'B' vysoký
+Obvod snímače polohy klikového hřídele 'B' Přerušovaný
+Obvod 'B' snímače polohy vačkového hřídele
+Obvod snímače polohy vačkového hřídele 'B' Rozsah/výkon
+Nízký obvod snímače polohy vačkového hřídele 'B'
+Vysoký obvod snímače polohy vačkového hřídele 'B'
+Obvod snímače polohy vačkového hřídele 'B' přerušovaný
+Průtok recirkulace výfukových plynů
+Zjištěn nedostatečný průtok recirkulace výfukových plynů
+Zjištěn nadměrný průtok recirkulace výfukových plynů
+Řídicí obvod recirkulace výfukových plynů
+Řídicí okruh recirkulace výfukových plynů Rozsah/výkon
+Nízký obvod čidla recirkulace výfukových plynů 'A'
+Vysoký obvod čidla recirkulace výfukových plynů 'A'
+Nízký obvod snímače recirkulace výfukových plynů 'B'
+Vysoký obvod snímače recirkulace výfukových plynů 'B'
+Obvod 'A' snímače recirkulace výfukových plynů
+Systém sekundárního vstřikování vzduchu
+Zjištěn nesprávný průtok v systému sekundárního vstřikování vzduchu
+Obvod přepínacího ventilu 'A' systému sekundárního vstřikování vzduchu
+Otevřený okruh spínacího ventilu 'A' systému sekundárního vstřikování vzduchu
+Zkrat spínacího ventilu 'A' systému sekundárního vstřikování vzduchu
+Obvod spínacího ventilu 'B' systému sekundárního vstřikování vzduchu
+Otevřený okruh spínacího ventilu 'B' systému sekundárního vstřikování vzduchu
+Zkrat spínacího ventilu 'B' systému sekundárního vstřikování vzduchu
+Řídicí okruh 'A' systému sekundárního vstřikování vzduchu
+Řídicí okruh 'B' systému sekundárního vstřikování vzduchu
+Účinnost systému katalyzátoru pod prahovou hodnotou
+Účinnost zahřívacího katalyzátoru pod prahovou hodnotou
+Účinnost hlavního katalyzátoru pod prahovou hodnotou
+Účinnost vyhřívaného katalyzátoru pod prahovou hodnotou
+Teplota vyhřívaného katalyzátoru pod prahovou hodnotou
+Snímač teploty katalyzátoru
+Rozsah/výkon snímače teploty katalyzátoru
+Nízký teplotní snímač katalyzátoru
+Snímač teploty katalyzátoru vysoký
+Řídicí obvod ohřívače katalyzátoru
+Účinnost systému katalyzátoru pod prahovou hodnotou
+Účinnost zahřívacího katalyzátoru pod prahovou hodnotou
+Účinnost hlavního katalyzátoru pod prahovou hodnotou
+Účinnost vyhřívaného katalyzátoru pod prahovou hodnotou
+Teplota vyhřívaného katalyzátoru pod prahovou hodnotou
+Snímač teploty katalyzátoru
+Rozsah/výkon snímače teploty katalyzátoru
+Nízký teplotní snímač katalyzátoru
+Snímač teploty katalyzátoru vysoký
+Řídicí obvod ohřívače katalyzátoru
+Systém odpařovacích emisí
+Systém odpařovacích emisí Nesprávný průtok proplachu
+Zjištěna netěsnost systému odpařovacích emisí (malá netěsnost)
+Obvod řídicího ventilu proplachovacího systému odpařovacích emisí
+Otevřený okruh ventilu proplachování systému odpařovacích emisí
+Zkrat řídicího ventilu proplachování výfukových plynů
+Řídicí okruh odpařovacích emisí
+Otevřený okruh regulace odpařovacích emisí
+Zkrat řídicího obvodu odpařovacího systému
+Odvzdušňovací ventil/elektromagnetický okruh systému odpařovacích emisí
+Snímač/spínač tlaku v systému odpařovacích emisí
+Snímač/spínač tlaku v systému odpařovacích emisí Rozsah/výkon
+Snímač/spínač tlaku v systému odpařovacích emisí nízký
+Snímač/spínač tlaku v systému odpařovacích emisí vysoký
+Snímač/spínač tlaku v systému odpařovacích emisí Přerušovaný
+Zjištěna netěsnost systému odpařovacích emisí (velká netěsnost)
+Zjištěna netěsnost systému odpařovacích emisí (velmi malá netěsnost)
+Zjištěn únik z odpařovacího emisního systému (uvolněný/odstraněný uzávěr palivové nádrže)
+Nízký obvod ventilu proplachování výfukových plynů
+Obvod řídicího ventilu proplachování systému odpařovacích emisí vysoký
+Obvod 'A' snímače hladiny paliva
+Obvod snímače hladiny paliva 'A' Rozsah/výkon
+Nízký stav obvodu snímače hladiny paliva 'A'
+Vysoký obvod snímače hladiny paliva 'A'
+Obvod snímače hladiny paliva 'A' přerušovaný
+Obvod snímače průtoku EVAP
+Rozsah/výkon obvodu snímače proplachování EVAP
+Nízký obvod snímače průtoku EVAP
+Obvod snímače průtoku EVAP vysoký
+Přerušovaný obvod snímače průtoku EVAP
+Snímač tlaku ve výfuku
+Snímač tlaku ve výfuku Rozsah/výkon
+Nízký snímač tlaku ve výfuku
+Snímač tlaku ve výfuku vysoký
+Snímač tlaku ve výfuku Přerušovaný
+Regulační ventil výfukového tlaku
+Regulační ventil výfukového tlaku Rozsah/výkon
+Nízký řídicí ventil výfukového tlaku
+Regulační ventil výfukového tlaku High
+Přerušovaný ventil regulace tlaku výfukových plynů
+Řídicí obvod ventilátoru 1
+Řídicí obvod ventilátoru 2
+Řídicí obvod ventilátoru 3
+Kontrola racionality ventilátoru
+Nadměrný proud v obvodu ventilátoru
+Napájení ventilátoru/zemní obvod
+Obvod B snímače recirkulace výfukových plynů
+Obvod řízení polohy škrticí klapky recirkulace výfukových plynů
+Recirkulace výfukových plynů Řízení polohy škrticí klapky Rozsah/výkon
+Nízký řídicí obvod recirkulace výfukových plynů
+Řídicí obvod recirkulace výfukových plynů vysoký
+Nedostatečný průtok sekundárního vstřikování vzduchu
+Nedostatečný průtok sekundárního vstřikování vzduchu
+Nadměrné otáčky ventilátoru
+Nízká rychlost ventilátoru
+Vysoká rychlost ventilátoru
+Vysoký průtok odpařovacího systému
+Systém odpařovacích emisí s nízkým průtokem proplachu
+Nízký řídicí obvod ventilu odpařovacích emisí
+Vysoký řídicí obvod ventilu odpařovacích emisí
+Snímač rychlosti vozidla 'A'
+Snímač rychlosti vozidla 'A' Rozsah/výkon
+Nízký vstup obvodu 'A' snímače rychlosti vozidla
+Snímač rychlosti vozidla 'A' Přerušovaný/nepravidelný/vysoký
+Korelace brzdového spínače 'A'/'B'
+Systém regulace volnoběžných otáček
+Nižší než očekávané otáčky systému regulace volnoběžných otáček
+Otáčky systému regulace volnoběžných otáček vyšší, než se očekávalo
+Nízký obvod systému řízení volnoběžných otáček
+Obvod systému řízení volnoběžných otáček vysoký
+Zavřený spínač polohy škrticí klapky
+Obvod řízení volnoběžných otáček
+Obvod požadavku na startér
+Nesprávný klíč k imobilizéru
+Rozsah/výkon obvodu snímače teploty baterie
+Obvod snímače teploty baterie
+Nízký stav obvodu snímače teploty baterie
+Vysoký obvod snímače teploty baterie
+Obvod regulace volnoběžného vzduchu Přerušovaný
+Výkon systému regulace volnoběžných otáček
+Obvod snímače/spínače tlaku motorového oleje
+Snímač/spínač tlaku motorového oleje Rozsah/výkon
+Nízké napětí snímače/spínače tlaku motorového oleje
+Snímač/spínač tlaku motorového oleje Vysoké napětí
+Příliš nízký tlak motorového oleje
+Řídicí obvod servořízení tempomatu Rozsah/výkon
+Obvod snímače otáček ventilátoru
+Rozsah/výkon obvodu snímače otáček ventilátoru
+Obvod snímače otáček ventilátoru bez signálu
+Přerušovaný obvod snímače otáček ventilátoru
+Obvod 'A' snímače tlaku chladiva klimatizace
+Snímač tlaku chladiva v okruhu 'A' klimatizace Rozsah/výkon
+Snímač tlaku chladiva v klimatizační jednotce 'A' je nízký
+Vysoký obvod čidla tlaku chladiva klimatizace 'A'
+Úbytek chladiva v klimatizačním zařízení
+Obvod snímače teploty výparníku klimatizace
+Rozsah/výkon obvodu snímače teploty výparníku klimatizace
+Nízký obvod snímače teploty výparníku klimatizace
+Vysoký obvod snímače teploty výparníku klimatizace
+Obvod snímače teploty výparníku klimatizace Přerušovaný provoz
+Okruh A ohřívače nasávaného vzduchu
+Nízký stav okruhu ohřívače nasávaného vzduchu 'A'
+Okruh ohřívače nasávaného vzduchu 'A' vysoký
+Otevřený okruh ohřívače nasávaného vzduchu 'A'
+Obvod snímače teploty výfukových plynů
+Nízký obvod snímače teploty výfukových plynů
+Vysoký obvod snímače teploty výfukových plynů
+Obvod snímače teploty výfukových plynů
+Nízký obvod snímače teploty výfukových plynů
+Vysoký obvod snímače teploty výfukových plynů
+Obvod snímače/spínače tlaku posilovače řízení
+Snímač tlaku posilovače řízení/spínač obvodu Rozsah/výkon
+Snímač tlaku posilovače řízení/obvod přepínače s nízkým vstupem
+Obvod snímače tlaku posilovače řízení/spínače s vysokým vstupem
+Obvod snímače tlaku posilovače řízení/spínače přerušovaný
+Obvod snímače tlaku v posilovači brzd
+Obvod snímače tlaku v posilovači brzd Rozsah/výkon
+Obvod snímače tlaku v posilovači brzd Nízký vstup
+Obvod snímače tlaku v posilovači brzd Vysoký vstup
+Obvod snímače tlaku v posilovači brzd Přerušovaný
+Napětí systému
+Nestabilní napětí systému
+Nízké napětí systému
+Vysoké napětí systému
+Multifunkční vstupní obvod 'A' tempomatu
+Signál zapnutého tempomatu
+Signál vypnutí tempomatu
+Signál obnovení tempomatu
+Signál nastavení tempomatu
+Tempomat Pobřežní signál
+Tempomat Signál zrychlení
+Obvod brzdového spínače 'A'
+Nízký obvod brzdového spínače 'A'
+Obvod brzdového spínače 'A' vysoký
+Tempomat - příliš vysoká rychlost vozidla
+Vstupní obvod tempomatu
+Nízký vstupní obvod tempomatu
+Vysoký vstupní obvod tempomatu
+Zaseknutý obvod multifunkčního vstupu 'A' tempomatu
+Multifunkční vstupní obvod 'A' tempomatu Rozsah/výkon
+Nízký obvod multifunkčního vstupu 'A' tempomatu
+Multifunkční vstupní obvod 'A' tempomatu vysoký
+Vakuový obvod ovládání tempomatu/otevřeno
+Nízký obvod vakuového ovládání tempomatu
+Obvod vakuového ovládání tempomatu High
+Korelace multifunkčního vstupu 'A'/'B' tempomatu
+Obvod ovládání ventilace tempomatu/otevřený
+Nízký obvod řízení ventilace tempomatu
+Obvod řízení ventilace tempomatu vysoký
+Multifunkční vstupní obvod 'B' tempomatu
+Zaseknutý obvod multifunkčního vstupu 'B' tempomatu
+Multifunkční vstupní obvod 'B' tempomatu Rozsah/výkon
+Nízký obvod multifunkčního vstupu 'B' tempomatu
+Multifunkční vstupní obvod 'B' tempomatu vysoký
+Řídicí obvod servořízení tempomatu/otevřeno
+Nízký obvod ovládání tempomatu
+Obvod řízení tempomatu High
+Řídicí obvod/otevřený okruh termostatu ohřívače
+Nízký řídicí obvod termostatu
+Řídicí obvod termostatu topení High
+Sériové komunikační spojení
+Chyba součtu kontrol paměti interního řídicího modulu
+Chyba programování řídicího modulu
+Chyba interního řídicího modulu Keep Alive Memory (KAM)
+Chyba interního řídicího modulu paměti s náhodným přístupem (RAM)
+Chyba interní řídicí paměti (ROM)
+Procesor ECM/PCM
+Výkon řídicího modulu
+Výstup VSS řídicího modulu 'A'
+Výstup VSS řídicího modulu 'B'
+Chyba řídicího modulu Možnosti vozidla
+Řídicí modul vstřikovače paliva Performance
+Řídicí modul vstřikovače paliva Řídicí relé
+Procesor TCM
+Nekompatibilní ECM / TCM
+Obvod startovacího relé
+Nízký obvod relé startéru
+Vysoký obvod relé startéru
+Chyba řídicího modulu alternativního paliva KAM
+Chyba RAM/ROM řídicího modulu alternativního paliva
+Řídicí obvod generátoru
+Svorkovnice generátoru/L Obvod svorkovnice
+Svorkovnice generátoru Pole/F
+Řídicí obvod lampy generátoru
+Obvod ovládání kontrolky víčka palivové nádrže
+Nízký obvod svorky generátoru Field/F
+Obvod svorek generátoru Field/F High
+Řídicí obvod palivového čerpadla 'A' /otevřeno
+Nízký řídicí obvod palivového čerpadla 'A'
+Vysoký řídicí obvod palivového čerpadla 'A'
+VIN není naprogramován nebo je nekompatibilní - ECM/PCM
+VIN není naprogramován nebo je nekompatibilní - TCM
+Nenaprogramovaný tachometr - ECM/PCM
+Klíč imobilizéru není naprogramován - ECM/PCM
+Příliš vysoká vnitřní teplota PCM/ECM/TCM
+Řídicí obvod posilovače řízení
+Nízký řídicí obvod posilovače řízení
+Řídicí obvod posilovače řízení vysoký
+Rozsah/výkon ovládání škrticí klapky
+Rozsah/výkon ovládání škrticí klapky
+Řídicí obvod ohřívače nasávaného vzduchu
+Referenční napětí snímače 'A' Obvod/Open
+Nízké referenční napětí obvodu 'A' snímače
+Referenční napětí snímače 'A' Obvod High
+Řidič Displej Sériový komunikační obvod
+Řídicí obvod relé spojky klimatizace
+Nízký řídicí obvod relé spojky klimatizace
+Řídicí obvod relé spojky klimatizace vysoký
+Obvod řízení světel imobilizéru
+Řídicí obvod lampy pro regulaci otáček
+Řídicí obvod kontrolky poruchy (MIL)
+Referenční napětí snímače 'B' Obvod/Open
+Nízké referenční napětí obvodu 'B' snímače
+Referenční napětí snímače 'B' Obvod High
+Výstupní obvod otáček motoru
+Řídicí obvod výstupu horké žárovky motoru
+Výstupní obvod hladiny paliva
+Napájecí napětí akčního členu 'A' obvod/otevřeno
+Nízké napájecí napětí obvodu 'A' akčního členu
+Vysoké napájecí napětí obvodu 'A' akčního členu
+Řídicí obvod/otevřený okruh sacího ventilu
+Nízký řídicí obvod sacího potrubí pro ladění ventilů
+Řídicí obvod ventilu sacího potrubí High
+Řídicí obvod/otevřený okruh sacího ventilu
+Nízký řídicí obvod sacího potrubí pro ladění ventilů
+Řídicí obvod ventilu sacího potrubí High
+Obvod snímače vnitřní teploty PCM/ECM/TCM
+Rozsah/výkon čidla vnitřní teploty PCM/ECM/TCM
+Nízký obvod snímače vnitřní teploty PCM/ECM/TCM
+Vysoký obvod snímače vnitřní teploty PCM/ECM/TCM
+Řídicí obvod modulu žhavicích svíček
+Obvod žhavicích svíček válce 1
+Obvod žhavicích svíček válce 2
+Obvod žhavicích svíček válce 3
+Obvod žhavicích svíček válce 4
+Obvod žhavicích svíček válce 5
+Obvod žhavicích svíček válce 6
+Obvod žhavicích svíček válce 7
+Obvod žhavicích svíček válce 8
+Obvod žhavicích svíček válce 9
+Obvod žhavicích svíček válce 10
+Obvod žhavicích svíček válce 11
+Obvod žhavicích svíček válce 12
+Komunikační obvod řídicího modulu žhavicích svíček s PCM
+Komunikační obvod řídicího modulu žhavicích svíček s PCM Rozsah/výkon
+Řídicí obvod výkonového relé ECM/PCM /otevřeno
+Řídicí obvod relé ECM/PCM Power Low
+Řídicí obvod výkonového relé ECM/PCM vysoký
+Senzorový obvod výkonového relé ECM/PCM /otevřeno
+Senzorový obvod napájecího relé ECM/PCM nízký
+Senzorový obvod výkonového relé ECM/PCM vysoký
+Nízký řídicí obvod ventilátoru 1
+Řídicí obvod ventilátoru 1 vysoký
+Nízký řídicí obvod ventilátoru 2
+Řídicí obvod ventilátoru 2 vysoký
+Nízký řídicí obvod ventilátoru 3
+Řídicí obvod ventilátoru 3 vysoký
+Referenční napětí snímače 'C' Obvod/Open
+Referenční napětí snímače 'C' obvodu nízké
+Referenční napětí snímače 'C' obvodu vysoké
+Systém řízení přenosu (požadavek MIL)
+Řídicí systém převodovky Rozsah/výkon
+Řídicí systém převodovky Elektrický
+Obvod brzdového spínače 'B'
+Porucha vstupního obvodu spínače spojky
+Porucha obvodu snímače rozsahu převodovky (vstup PRNDL)
+Obvod snímače rozsahu převodovky Rozsah/výkon
+Nízký obvod snímače rozsahu převodovky
+Vysoký obvod snímače rozsahu převodovky
+Přerušovaný obvod snímače rozsahu převodovky
+Obvod 'A' snímače teploty převodové kapaliny
+Snímač teploty převodové kapaliny 'A' Rozsah/výkon obvodu
+Nízký obvod snímače teploty převodové kapaliny 'A'
+Vysoký obvod snímače teploty převodové kapaliny 'A'
+Obvod snímače teploty převodové kapaliny 'A' Přerušovaný provoz
+Vstupní obvod/obvod snímače otáček turbíny 'A'
+Rozsah/výkon vstupního obvodu/obvodu snímače otáček turbíny 'A'
+Vstupní obvod/obvod snímače otáček turbíny 'A' bez signálu
+Obvod 'A' vstupního snímače otáček/turbíny Přerušovaný provoz
+Nízký obvod brzdového spínače 'B'
+Výstupní obvod snímače otáček
+Rozsah/výkon výstupního obvodu snímače otáček
+Výstupní obvod snímače rychlosti bez signálu
+Přerušovaný obvod výstupního snímače otáček
+Obvod brzdového spínače 'B' vysoký
+Vstupní obvod otáček motoru
+Rozsah/výkon vstupního obvodu otáček motoru
+Vstupní obvod otáček motoru bez signálu
+Vstupní obvod otáček motoru přerušovaný
+Nesprávný převodový poměr převodovky 6
+Nesprávný převodový poměr
+Nesprávný převodový poměr převodovky 1
+Nesprávný převodový poměr převodovky 2
+Nesprávný převodový poměr převodovky 3
+Nesprávný převodový poměr převodovky 4
+Nesprávný převodový poměr převodovky 5
+Obrácený nesprávný poměr
+Výstupní obvod otáček motoru TCM
+Nízký výstupní obvod otáček motoru TCM
+Vysoký výstupní obvod otáček motoru TCM
+Obvod spojky měniče krouticího momentu/otevřený
+Obvod spojky měniče krouticího momentu Výkon nebo zaseknuté vypnutí
+Zapnutý obvod spojky měniče točivého momentu
+Obvod spojky měniče krouticího momentu Elektrický obvod
+Obvod spojky měniče krouticího momentu Přerušovaný
+Solenoid pro regulaci tlaku 'A'
+Výkon nebo zaseknutí ovládacího elektromagnetu 'A'
+Zaseknutý elektromagnetický ventil regulace tlaku 'A'
+Elektrická ovládací cívka tlaku 'A'
+Elektromagnetická cívka regulace tlaku 'A' Přerušovaná
+Řadicí cívka 'A'
+Výkonnost nebo zaseknutí elektromagnetické cívky řazení 'A' ve vypnutém stavu
+Zapnutý elektromagnetický ventil řazení 'A'
+Elektrický obvod elektromagnetické cívky řazení 'A'
+Přerušovaný elektromagnet řazení 'A'
+Řadicí cívka 'B'
+Výkonnost nebo zaseknutí elektromagnetické cívky řazení 'B' ve vypnutém stavu
+Zapnutý elektromagnetický ventil řazení 'B'
+Elektrický obvod elektromagnetické cívky řazení 'B'
+Přerušovaný elektromagnetický ventil řazení 'B'
+Řadicí cívka 'C'
+Výkonnost nebo zaseknutí elektromagnetické cívky řazení 'C' ve vypnutém stavu
+Zapnutý elektromagnetický ventil řazení 'C'
+Elektrická cívka řazení 'C'
+Přerušovaný elektromagnet řazení 'C'
+Řadicí cívka 'D'
+Výkonnost nebo zaseknutí elektromagnetu řazení 'D' ve vypnutém stavu
+Zapnutý elektromagnetický ventil řazení 'D'
+Elektrická cívka řazení 'D'
+Přerušovaný elektromagnetický ventil řazení 'D'
+Řadicí cívka 'E'
+Výkon nebo zaseknutí vypnutého elektromagnetu řazení 'E'
+Zapnutý elektromagnetický ventil řazení 'E'
+Elektrická cívka řazení 'E'
+Přerušovaný elektromagnetický ventil řazení 'E'
+Solenoid pro regulaci tlaku 'B'
+Výkon nebo zaseknutí ovládacího elektromagnetu 'B'
+Zaseknutý elektromagnetický ventil regulace tlaku 'B'
+Elektrická ovládací cívka tlaku 'B'
+Elektromagnetický ventil pro regulaci tlaku 'B' Přerušovaný
+Chyba posunu
+1-2 směna
+2-3 směny
+3-4 směna
+4-5 směna
+Solenoid pro řazení/časování
+Rozsah/výkon cívky pro řazení/časování
+Nízký stav cívky řazení/časování
+Solenoid řazení/časování vysoký
+Přerušovaná cívka řazení/časování
+Normální/výkonnostní spínací obvod
+Obvod snímače otáček mezinápravového hřídele 'A'
+Snímač otáček mezinápravového hřídele 'A' Rozsah/výkon obvodu
+Obvod 'A' snímače otáček mezinápravového hřídele bez signálu
+Obvod snímače otáček mezinápravového hřídele 'A' přerušovaný
+Solenoid pro regulaci tlaku 'C'
+Výkon nebo zaseknutí ovládacího elektromagnetu 'C'
+Zaseknutý elektromagnetický ventil regulace tlaku 'C'
+Elektrická ovládací cívka tlaku 'C'
+Elektromagnetický ventil pro regulaci tlaku 'C' Přerušovaný
+Systém řízení převodovky (požadavek MIL)
+Řídicí obvod zpětné inhibice
+Řídicí systém přenosu MIL Request Circuit/Open
+1-4 Obvod ovládání elektromagnetického obvodu pro řazení nahoru (přeskočení řazení)
+1-4 Obvod ovládání světelného zdroje s posunem nahoru (Skip Shift)
+Obvod snímače polohy spojky
+Rozsah/výkon obvodu snímače polohy spojky
+Nízký obvod snímače polohy spojky
+Vysoký obvod snímače polohy spojky
+Přerušovaný obvod snímače polohy spojky
+Chyba ovládání polohy spojky
+Nadměrný prokluz spojky
+Reverzní vstupní obvod
+Reverzní výstupní obvod
+Obvod zobrazení rozsahu přenosu
+Obvod přepínače Upshift
+Obvod spínače řazení dolů
+Obvod pro vypnutí startéru
+Vstupní obvod odpojovače hnacího ústrojí
+Vztah mezi přepínačem řazení nahoru a dolů a rozsahem převodovky
+Obvod snímače polohy X-Y řadicí páky
+Obvod polohy X řadicí páky
+Obvod polohy Y řadicí páky
+Obvod polohy X řadicí páky přerušovaný
+Obvod polohy Y řadicí páky přerušovaný
+Přepínač řadicí páky Push-Pull (předvídání řazení)
+Obvod přepínače řazení nahoru a dolů
+Nízký obvod přepínače řazení nahoru a dolů
+Obvod přepínače řazení nahoru a dolů High
+5-6 směna
+Obvod 'A' spínače pedálu spojky
+Nízký obvod spínače pedálu spojky 'A'
+Vysoký obvod spínače pedálu spojky 'A'
+Obvod 'B' spínače pedálu spojky
+Nízký obvod spínače spojkového pedálu 'B'
+Vysoký obvod spínače spojkového pedálu 'B'
+Obvod spínače pohonu všech kol (4WD)
+Obvod přepínače pohonu všech kol (4WD) Rozsah/výkon
+Obvod spínače pohonu všech kol (4WD) Nízká úroveň
+Obvod spínače pohonu všech kol (4WD) High (vysoký)
+Snímač tlaku převodové kapaliny/spínač obvodu 'A'
+Snímač tlaku převodové kapaliny/spínač 'A' Rozsah/výkon obvodu
+Nízký obvod snímače tlaku převodové kapaliny/spínače 'A'
+Vysoký obvod snímače tlaku převodové kapaliny/spínače 'A'
+Snímač tlaku převodové kapaliny/spínač 'A' Obvod přerušovaný
+Snímač tlaku převodové kapaliny/spínač obvodu 'B'
+Snímač tlaku převodové kapaliny/spínač obvodu 'B' Rozsah/výkonnost
+Nízký obvod snímače tlaku převodové kapaliny/spínače 'B'
+Vysoký obvod snímače tlaku převodové kapaliny/spínače 'B'
+Snímač tlaku převodové kapaliny/spínač 'B' Obvod přerušovaný
+Vstupní obvod parkovacího/neutrálního spínače
+Nízký vstupní obvod parkovacího/neutrálního spínače
+Vysoký vstupní obvod parkovacího/neutrálního spínače
+Vstupní obvod spínače pohonu
+Vstupní obvod spínače pohonu nízký
+Vstupní obvod spínače pohonu High
+Vstupní signál řízení trakce
+Rozsah/výkon vstupního signálu řízení trakce
+Nízký vstupní signál řízení trakce
+Vysoký vstupní signál řízení trakce
+Komunikační obvod modulu řazení
+Nízký komunikační obvod modulu řazení
+Komunikační obvod modulu řazení vysokého stupně
+Komunikační obvod TCM
+Rozsah/výkon komunikačního obvodu TCM
+Nízký komunikační obvod TCM
+Komunikační obvod TCM High
+Tlak převodové kapaliny
+Nízký tlak převodové kapaliny
+Vysoký tlak převodové kapaliny
+Snímač tlaku převodové kapaliny/spínač obvodu 'C'
+Snímač tlaku převodové kapaliny/spínač 'C' Rozsah/výkon obvodu
+Nízký obvod snímače tlaku převodové kapaliny/spínače 'C'
+Vysoký obvod snímače tlaku převodové kapaliny/spínače 'C'
+Snímač tlaku převodové kapaliny/spínač 'C' Obvod přerušovaný
+Snímač tlaku převodové kapaliny/spínač obvodu 'D'
+Snímač tlaku převodové kapaliny/spínač obvodu 'D' Rozsah/výkonnost
+Snímač tlaku převodové kapaliny / obvod spínače 'D' nízký
+Vysoký obvod snímače tlaku převodové kapaliny/spínače 'D'
+Snímač tlaku převodové kapaliny/spínač 'D' Obvod přerušovaný
+Vstupní napájecí signál TCM
+Rozsah/výkon vstupního signálu TCM
+Nízký vstupní napájecí signál TCM
+Vysoký vstupní signál TCM
+Přerušovaný vstupní napájecí signál TCM
+Řídicí obvod relé napájení TCM/otevřeno
+Nízký řídicí obvod napájecího relé TCM
+Řídicí obvod napájecího relé TCM High
+Senzorový obvod napájecího relé TCM
+Snímací obvod výkonového relé TCM Rozsah/výkon
+Nízký obvod snímače napájecího relé TCM
+Senzorový obvod napájecího relé TCM vysoký
+Přerušovaný obvod snímače napájecího relé TCM
+Zapojení více převodových stupňů
+Prokluzování součásti převodovky
+Příliš krátká doba směny
+Příliš dlouhá doba směny
+Zhoršená kvalita převodové kapaliny
+Nízký obvod požadavku MIL systému řízení přenosu
+Obvod požadavku na MIL systému řízení přenosu vysoký
+Obvod spojkového pohonu/otevřený
+Rozsah/výkon obvodu spojkového pohonu
+Nízký stav obvodu spojkového pohonu
+Vysoký obvod spojkového pohonu
+Obvod volby polohy brány
+Rozsah/výkon obvodu volby polohy brány
+Obvod volby polohy brány Low
+Obvod volby polohy brány High
+Obvod volby polohy brány přerušovaný
+Chyba řízení výběru brány
+Obvod pohonu volby brány/otevření
+Rozsah/výkon obvodu aktuátoru Gate Select
+Nízký obvod pohonu volby brány
+Vysoký obvod pohonu volby brány
+Obvod pro řazení rychlostních stupňů
+Rozsah/výkon obvodu řazení rychlostních stupňů
+Obvod polohy řazení nízké
+Obvod pro řazení rychlostních stupňů High
+Obvod polohy řazení přerušovaný
+Chyba kontroly polohy řazení
+Okruh/otevřený ovladač řazení rychlostních stupňů dopředu
+Rozsah/výkon obvodu řadicí páky pro řazení dopředu
+Nízký obvod ovládání řadicí páky dopředu
+Obvod řadicí páky pro řazení vpřed vysoký
+Obvod/otevřený obvod zpětného chodu řadicí páky
+Rozsah/výkon obvodu ovládání zpětného chodu řadicí páky
+Nízký obvod ovládání zpětného chodu řadicí páky
+Obvod reverzace řadicí páky vysoký
+Ovládací obvod elektromagnetického zámku řazení/otevřeno
+Řídicí obvod elektromagnetického zámku řazení Rozsah/výkon
+Nízká úroveň ovládacího obvodu elektromagnetického zámku řazení
+Vysoký řídicí obvod elektromagnetického zámku řazení
+Obvod snímače hydraulického tlaku
+Rozsah/výkon hydraulického snímače tlaku
+Nízký obvod snímače hydraulického tlaku
+Vysoký obvod snímače hydraulického tlaku
+Přerušovaný obvod snímače hydraulického tlaku
+Obvod snímače teploty hydraulického oleje
+Rozsah/výkon čidla teploty hydraulického oleje
+Nízký obvod snímače teploty hydraulického oleje
+Vysoký obvod snímače teploty hydraulického oleje
+Přerušovaný obvod snímače teploty hydraulického oleje
+Hydraulická tlaková jednotka
+Příliš krátká doba cyklování hydraulické tlakové jednotky
+Hydraulická tlaková jednotka Ztráta tlaku
+Obvod relé hydraulického čerpadla/rozpojení
+Rozsah/výkon obvodu relé hydraulického čerpadla
+Nízký obvod relé hydraulického čerpadla
+Vysoký obvod relé hydraulického čerpadla
+Automatické řazení Manuální adaptivní učení není dokončeno
+Obvod automatického manuálního řazení
+Automatické řazení Ruční ovládání Obvod Rozsah/výkon
+Obvod automatického manuálního řazení Nízká
+Automatické řazení Manuální ovládací obvod Vysoký
+Automatické řazení Manuální ovládací obvod Přerušovaný
+Obvod pro automatické řazení v manuálním režimu
+Automatické řazení Manuální režim Rozsah/výkon okruhu
+Automatické řazení Manuální režim Obvod nízký
+Automatické řazení Manuální režim Obvod High
+Automatické řazení Manuální režim Přerušovaný okruh
+Řídicí obvod/otevřený okruh ovládacího elektromagnetu 'A' pro regulaci tlaku
+Ovládací obvod ovládacího elektromagnetu 'A' Rozsah/výkon
+Nízký řídicí okruh ovládacího elektromagnetu 'A'
+Řídicí obvod ovládacího elektromagnetu 'A' Vysoký
+Řídicí obvod ovládacího elektromagnetu 'B'/otevřeno
+Ovládací obvod elektromagnetu 'B' Rozsah/výkonnost
+Nízký řídicí okruh ovládacího elektromagnetu 'B'
+Řídicí obvod elektromagnetu 'B' pro regulaci tlaku High (vysoký)
+Řídicí obvod C ovládacího elektromagnetu 'C'/otevřeno
+Řídicí obvod elektromagnetu 'C' Rozsah/výkon
+Nízký řídicí obvod elektromagnetu 'C' pro regulaci tlaku
+Ovládací obvod elektromagnetu 'C' Vysoký tlak
+Řídicí obvod elektromagnetu řazení 'A' Rozsah/výkon
+Řídicí obvod elektromagnetické cívky řazení 'A' nízký
+Řídicí obvod elektromagnetické cívky řazení 'A' vysoký
+Řídicí obvod elektromagnetu řazení 'B' Rozsah/výkon
+Řídicí obvod elektromagnetu řazení 'B' nízký
+Řídicí obvod elektromagnetu řazení 'B' vysoký
+Řídicí obvod elektromagnetu řazení 'C' Rozsah/výkon
+Nízký řídicí obvod elektromagnetické cívky řazení 'C'
+Řídicí obvod elektromagnetické cívky 'C' vysoký
+Řídicí obvod elektromagnetu řazení 'D' Rozsah/výkon
+Nízký řídicí obvod elektromagnetu řazení 'D'
+Řídicí obvod elektromagnetu řazení 'D' vysoký
+Řídicí obvod elektromagnetu řazení 'E' Rozsah/výkon
+Nízký řídicí obvod elektromagnetu řazení 'E'
+Řídicí obvod elektromagnetické cívky 'E' vysoký
+Obvod snímače tlaku převodové kapaliny/spínače 'E'
+Snímač tlaku převodové kapaliny/spínač 'E' Rozsah/výkon obvodu
+Nízký obvod snímače tlaku převodové kapaliny/spínače 'E'
+Vysoký obvod snímače tlaku převodové kapaliny/spínače 'E'
+Snímač tlaku převodové kapaliny/spínač 'E' Obvod přerušovaný
+Snímač tlaku převodové kapaliny/spínač obvodu 'F'
+Snímač tlaku převodové kapaliny/spínač obvodu 'F' Rozsah/výkonnost
+Nízký obvod snímače tlaku převodové kapaliny/spínače 'F'
+Vysoký obvod snímače tlaku převodové kapaliny/spínače 'F'
+Snímač tlaku převodové kapaliny/spínač 'F' Obvod přerušovaný
+Řídicí obvod elektromagnetické cívky 'F' Rozsah/výkon
+Řídicí obvod elektromagnetické cívky 'F' nízký
+Řídicí obvod elektromagnetické cívky 'F' vysoký
+Obvod snímače teploty chladicí kapaliny v elektronice motoru
+Snímač teploty chladicí kapaliny v elektronice motoru Rozsah/výkon
+Nízký obvod snímače teploty chladicí kapaliny v elektronice motoru
+Obvod snímače teploty chladicí kapaliny v elektronice motoru vysoký
+Obvod snímače teploty chladicí kapaliny v elektronice motoru Přerušovaný provoz
+Řídicí obvod čerpadla chladicí kapaliny motoru/otevřený obvod
+Nízký řídicí obvod čerpadla chladicí kapaliny motoru
+Řídicí obvod čerpadla chladicí kapaliny motoru
+Stavový obvod měniče DC/DC
+Stavový obvod DC/DC měniče Nízký vstup
+Stavový obvod DC/DC měniče Vysoký vstup
+Povolovací obvod DC/DC měniče/otevřený obvod
+Obvod povolení DC/DC měniče Low
+Obvod povolení DC/DC měniče High
+Řídicí obvod/otevřený okruh montáže motoru
+Nízký řídicí obvod uložení motoru
+Obvod ovládání montáže motoru High
+Obvod snímače točivého momentu motoru
+Rozsah/výkon obvodu snímače točivého momentu motoru
+Nízký obvod snímače točivého momentu motoru
+Vysoký obvod snímače točivého momentu motoru
+Přerušovaný obvod snímače točivého momentu motoru
+Obvod snímače točivého momentu generátoru
+Rozsah/výkon obvodu snímače točivého momentu generátoru
+Nízký obvod snímače točivého momentu generátoru
+Vysoký obvod snímače točivého momentu generátoru
+Přerušovaný obvod snímače točivého momentu generátoru
+Obvod pro vypnutí napájení z baterie
+Nízký stav obvodu vypnutí baterie
+Vypínací obvod baterie vysoký
+Účinnost lapače NOx pod prahovou hodnotou
+Účinnost lapače NOx pod prahovou hodnotou
+Účinnost lapače částic pod prahovou hodnotou
+Účinnost lapače částic pod prahovou hodnotou
+Otevřené ovládání sacího potrubí
+Otevřené ovládání sacího potrubí
+Ovládání sacího potrubí uvízlo v poloze zavřeno
+Ovládání sacího potrubí uvízlo v poloze zavřeno
+Řídicí obvod sacího potrubí/otevřený okruh
+Nízký řídicí obvod sacího potrubí
+Řídicí obvod sacího potrubí High
+Řídicí obvod sacího potrubí/otevřený okruh
+Nízký řídicí obvod sacího potrubí
+Řídicí obvod sacího potrubí High
+Obvod snímače polohy sacího potrubí/spínače
+Snímač polohy sacího potrubí/spínač Obvod Rozsah/výkon
+Snímač polohy sacího potrubí/obvod spínače nízký
+Obvod snímače polohy sacího potrubí/spínače vysoký
+Obvod snímače polohy sacího potrubí/spínače Přerušovaný
+Obvod snímače polohy sacího potrubí/spínače
+Snímač polohy sacího potrubí/spínač Obvod Rozsah/výkon
+Snímač polohy sacího potrubí/obvod spínače nízký
+Obvod snímače polohy sacího potrubí/spínače vysoký
+Obvod snímače polohy sacího potrubí/spínače Přerušovaný
+Obvod snímače teploty par paliva (EVAP)
+Výkon snímače teploty par paliva (EVAP)
+Obvod snímače teploty par paliva (EVAP) Nízké napětí
+Obvod snímače teploty par paliva (EVAP) Vysoké napětí
+Obvod snímače teploty palivových par (EVAP) Přerušovaný provoz
+Vypnuté topení na palivo
+Výkon ohřívače na paliva
+Obvod snímače teploty výfukových plynů
+Nízký obvod snímače teploty výfukových plynů
+Vysoký obvod snímače teploty výfukových plynů
+Obvod snímače teploty výfukových plynů
+Nízký obvod snímače teploty výfukových plynů
+Vysoký obvod snímače teploty výfukových plynů
+Obvod snímače tlaku vzduchu při vstřikování redukčního média
+Obvod snímače tlaku vzduchu pro redukční vstřikování Rozsah/výkon
+Obvod snímače tlaku vzduchu při vstřikování redukčního média Nízký příkon
+Obvod snímače tlaku vzduchu při vstřikování redukčního média Vysoký příkon
+Obvod snímače tlaku vzduchu při vstřikování redukčního média Přerušovaný provoz
+Redukční obvod snímače teploty
+Rozsah/výkon obvodu snímače teploty reduktoru
+Nízký vstup obvodu snímače teploty reduktoru
+Obvod snímače teploty reduktoru Vysoký vstup
+Přerušovaný obvod snímače teploty reduktoru
+Redukční vstřikovací okruh/otevřený okruh
+Redukční obvod vstřikovače nízký
+Redukční obvod vstřikovače vysoký
+Redukční vstřikovací okruh/otevřený okruh
+Redukční obvod vstřikovače nízký
+Redukční obvod vstřikovače vysoký
+Redukční vstřikovací okruh/otevřený okruh
+Redukční obvod vstřikovače nízký
+Redukční obvod vstřikovače vysoký
+Redukční vstřikovací okruh/otevřený okruh
+Redukční obvod vstřikovače nízký
+Redukční obvod vstřikovače vysoký
+Řídicí okruh čerpadla redukčního vzduchu/otevřeno
+Řídicí obvod čerpadla redukčního vzduchu nízký
+Řídicí obvod čerpadla redukovaného vstřikovacího vzduchu High
+Řídicí obvod redukčního napájení/otevřený
+Nízký řídicí obvod redukčního zdroje
+Řídicí obvod redukčního zdroje vysoký
+Obvod snímače hladiny paliva 'B'
+Výkon snímače hladiny paliva 'B'
+Nízký obvod snímače hladiny paliva 'B'
+Vysoký obvod snímače hladiny paliva 'B'
+Obvod snímače hladiny paliva 'B' Přerušovaný
+Otevřený ventil sacího potrubí (IMT)
+Zavřený ventil sacího potrubí (IMT)
+Obvod snímače polohy ventilu/spínače sacího potrubí (IMT)
+Ladění sacího potrubí (IMT) Snímač polohy ventilů/obvod přepínače Rozsah/výkonnost
+Nízký obvod snímače polohy ventilu/spínače sacího potrubí (IMT)
+Obvod snímače polohy ventilů/spínače sacího potrubí (IMT) vysoký
+Obvod snímače polohy ventilů/spínače sacího potrubí (IMT) přerušovaný
+Rozsah/výkon obvodu snímače teploty výfukových plynů
+Přerušovaný obvod snímače teploty výfukových plynů
+Rozsah/výkon obvodu snímače teploty výfukových plynů
+Přerušovaný obvod snímače teploty výfukových plynů
+Rozsah/výkon obvodu snímače teploty výfukových plynů
+Přerušovaný obvod snímače teploty výfukových plynů
+Rozsah/výkon obvodu snímače teploty výfukových plynů
+Přerušovaný obvod snímače teploty výfukových plynů
+'A' Řídicí obvod ovladače polohy vačkového hřídele Nízká hodnota
+'A' Obvod řízení polohy vačkového hřídele vysoký
+'B' Řídicí obvod ovladače polohy vačkového hřídele Nízká hodnota
+'B' Řídicí obvod ovladače polohy vačkového hřídele vysoký
+'A' Řídicí obvod ovladače polohy vačkového hřídele Nízká hodnota
+'A' Obvod řízení polohy vačkového hřídele vysoký
+'B' Řídicí obvod ovladače polohy vačkového hřídele Nízká hodnota
+'B' Řídicí obvod ovladače polohy vačkového hřídele vysoký
+Příliš chudý systém trimování paliva po katalyzátoru
+Příliš bohatý systém trimování paliva po katalyzátoru
+Příliš chudý systém trimování paliva po katalyzátoru
+Příliš bohatý systém trimování paliva po katalyzátoru
+Obvod motoru ovládání škrticí klapky/otevřeno
+Obvod ovládání motoru škrticí klapky Rozsah/výkon
+Nízký obvod motoru ovládání škrticí klapky
+Obvod ovládacího motoru škrticí klapky vysoký
+Systém ovládání škrticí klapky - nucený volnoběh
+Systém ovládání škrticí klapky - nucené vypnutí motoru
+Systém ovládání škrticí klapky - nucený omezený výkon
+Procesor řídicího modulu škrticí klapky
+Výkon řídicího modulu škrticí klapky
+Snímač polohy škrticí klapky/pedálu 'A' Minimální brzdný výkon
+Systém ovládání škrticí klapky - nuceně omezené otáčky
+Systém ovládání škrticí klapky - zaseknutí v otevřené poloze
+Systém ovládání škrticí klapky - zaseknutý v zavřené poloze
+Snímač polohy škrticí klapky/pedálu 'B' Minimální brzdný výkon
+Snímač polohy škrticí klapky/pedálu 'C' Minimální brzdný výkon
+Snímač polohy škrticí klapky/pedálu 'D' Minimální brzdný výkon
+Snímač polohy škrticí klapky/pedálu 'E' Minimální brzdný výkon
+Snímač polohy škrticí klapky/pedálu 'F' Minimální brzdný výkon
+Rozsah/výkon proudu motoru ovládání škrticí klapky
+Ovládání škrticí klapky Rozsah/výkon škrticí klapky
+Snímač polohy škrticí klapky/pedálu/obvod 'D' přepínače
+Snímač polohy škrticí klapky/pedálu/spínač 'D' Rozsah/výkon
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'D' Nízký vstup
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'D' Vysoký vstup
+Snímač polohy škrticí klapky/pedálu/spínač 'D' Obvod přerušovaný
+Snímač polohy škrticí klapky/pedálu/spínač 'E' Obvod
+Snímač polohy škrticí klapky/pedálu/spínač 'E' Rozsah/výkonnost obvodu
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'E' Nízký vstup
+Snímač polohy škrticí klapky/pedálu/obvod přepínače 'E' Vysoký vstup
+Snímač polohy škrticí klapky/pedálu/spínač 'E' Obvod přerušovaný
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'F'
+Snímač polohy škrticí klapky/pedálu/spínač 'F' Rozsah výkonu
+Snímač polohy škrticí klapky/pedálu/obvod spínače 'F' Nízký vstup
+Snímač polohy škrticí klapky/pedálu/obvod přepínače 'F' Vysoký vstup
+Snímač polohy škrticí klapky/pedálu/spínač 'F' Obvod přerušovaný
+Korelace napětí snímače polohy škrticí klapky/pedálu/spínače 'A' / 'B'
+Korelace napětí snímače polohy škrticí klapky/pedálu/spínače 'A' / 'C'
+Korelace napětí snímače polohy škrticí klapky/pedálu/spínače 'B' / 'C'
+Korelace napětí snímače polohy škrticí klapky/pedálu/spínače 'D' / 'E'
+Korelace napětí snímače polohy škrticí klapky/pedálu/spínače 'D' / 'F'
+Korelace napětí snímače polohy škrticí klapky/pedálu/spínače 'E' / 'F'
+Nízký obvod ovládání škrticí klapky recirkulace výfukových plynů
+Obvod ovládání škrticí klapky recirkulace výfukových plynů vysoký
+Řídicí okruh/otevřený okruh recirkulace výfukových plynů
+Nízký řídicí okruh recirkulace výfukových plynů
+Řídicí okruh recirkulace výfukových plynů vysoký
+Obvod napájecího napětí skupiny vstřikovačů paliva 'A' / otevřeno
+Nízký napájecí obvod skupiny vstřikovačů paliva 'A'
+Vysoký obvod napájecího napětí skupiny vstřikovačů paliva 'A'
+Obvod napájecího napětí skupiny vstřikovačů paliva 'B' / otevřeno
+Nízký napájecí obvod skupiny vstřikovačů paliva 'B'
+Vysoký napájecí obvod skupiny vstřikovačů paliva 'B'
+Obvod napájecího napětí skupiny vstřikovačů paliva 'C' / otevřeno
+Nízký napájecí obvod skupiny vstřikovačů paliva 'C'
+Vysoký napájecí obvod skupiny vstřikovačů paliva 'C'
+Obvod napájecího napětí skupiny vstřikovačů paliva 'D' / otevřeno
+Nízký napájecí obvod skupiny vstřikovačů paliva 'D'
+Vysoký napájecí obvod skupiny vstřikovačů paliva 'D'
+Snímač rychlosti vozidla 'B'
+Snímač rychlosti vozidla 'B' Rozsah/výkon
+Nízký obvod snímače rychlosti vozidla 'B'
+Snímač rychlosti vozidla 'B' Přerušovaný/nepravidelný
+Korelace snímače rychlosti vozidla 'A' / 'B'
+Snímač polohy škrticí klapky/pedálu 'A' Maximální výkon při zastavení
+Snímač polohy škrticí klapky/pedálu 'B' Maximální výkon při zastavení
+Snímač polohy škrticí klapky/pedálu 'C' Maximální výkon při zastavení
+Snímač polohy škrticí klapky/pedálu 'D' Maximální výkon při zastavení
+Snímač polohy škrticí klapky/pedálu 'E' Maximální výkon při zastavení
+Snímač polohy škrticí klapky/pedálu 'F' Maximální výkon při zastavení
+Ovládací obvod elektromagnetického ventilu regulátoru výfukového tlaku/otevřeno
+Nízký řídicí obvod elektromagnetického ventilu regulátoru výfukového tlaku
+Ovládací obvod elektromagnetického ventilu regulátoru výfukového tlaku High
+Systém ovládání škrticí klapky - detekován náhlý vysoký průtok vzduchu
+Systém ovládání škrticí klapky - detekován vysoký průtok vzduchu
+Systém ovládání škrticí klapky - náhlá detekce nízkého průtoku vzduchu
+Systém ovládání škrticí klapky - detekován nízký průtok vzduchu
+Systém ovládání škrticí klapky - volnoběžná poloha není naučená
+Příliš chudý systém při volnoběhu
+Příliš bohatý systém při volnoběhu
+Příliš chudý systém při volnoběhu
+Příliš bohatý systém při volnoběhu
+Výkon chladicího systému
+Obvod čidla teploty chladicí kapaliny motoru 2
+Snímač teploty chladicí kapaliny motoru 2 Rozsah/výkon obvodu
+Nízký obvod snímače teploty chladicí kapaliny motoru 2
+Obvod čidla teploty chladicí kapaliny motoru 2 vysoký
+Snímač teploty chladicí kapaliny motoru 2 Obvod přerušovaný/nepravidelný
+Příliš chudý systém při volnoběhu
+Příliš bohatý systém při volnoběhu
+Příliš chudý systém při volnoběhu
+Příliš bohatý systém při volnoběhu
+Příliš chudý systém při vyšším zatížení
+Příliš bohatý systém při vyšším zatížení
+Příliš chudý systém při vyšším zatížení
+Příliš bohatý systém při vyšším zatížení
+Signál snímače O2 uvízl v chudém stavu
+Signál snímače O2 uvízl v bohatém stavu
+Signál snímače O2 uvízl v chudém stavu
+Signál snímače O2 uvízl v bohatém stavu
+Snímač teploty nasávaného vzduchu 1 / 2 Korelace
+Obvod snímače NOx
+Rozsah/výkon obvodu snímače NOx
+Nízký vstup obvodu snímače NOx
+Vysoký vstup obvodu snímače NOx
+Přerušovaný vstup obvodu snímače NOx
+Řídicí obvod ohřívače snímače NOx/otevřeno
+Nízký stav řídicího obvodu ohřevu snímače NOx
+Vysoký řídicí obvod ohřívače snímače NOx
+Senzor NOx Senzorový obvod ohřevu
+Senzor NOx Senzorový obvod ohřevu Rozsah/výkon
+Snímač NOx Obvod snímače ohřevu nízký vstup
+Senzor NOx Senzor ohřevu Obvod vysokého vstupu
+Senzor NOx Senzor topení Obvod přerušovaný
+Obvod snímače NOx
+Rozsah/výkon obvodu snímače NOx
+Nízký vstup obvodu snímače NOx
+Vysoký vstup obvodu snímače NOx
+Přerušovaný vstup obvodu snímače NOx
+Řídicí obvod ohřívače snímače NOx/otevřeno
+Nízký stav řídicího obvodu ohřevu snímače NOx
+Vysoký řídicí obvod ohřívače snímače NOx
+Senzor NOx Senzorový obvod ohřevu
+Senzor NOx Senzorový obvod ohřevu Rozsah/výkon
+Snímač NOx Snímač ohřevu obvodu nízký
+Senzor NOx Senzor ohřevu obvodu High
+Senzor NOx Senzor topení Obvod přerušovaný
+Obvod barometrického tlaku
+Rozsah/výkon obvodu barometrického tlaku
+Nízký obvod barometrického tlaku
+Vysoký obvod barometrického tlaku
+Obvod barometrického tlaku Přerušovaný
+Signální obvod snímače O2 zkratován na obvod topení
+Signální obvod snímače O2 zkratován na obvod topení
+Signální obvod snímače O2 zkratován na obvod topení
+Signální obvod snímače O2 zkratován na obvod topení
+Signální obvod snímače O2 zkratován na obvod topení
+Signální obvod snímače O2 zkratován na obvod topení
+Řídicí obvod kladného proudu snímače O2/otevřeno
+Nízký kladný proudový řídicí obvod snímače O2
+Obvod řízení kladného proudu snímače O2 vysoký
+Řídicí obvod kladného proudu snímače O2/otevřeno
+Nízký kladný proudový řídicí obvod snímače O2
+Obvod řízení kladného proudu snímače O2 vysoký
+Referenční napěťový obvod snímače O2/otevřeno
+Výkonnost referenčního napětí snímače O2
+Nízký obvod referenčního napětí snímače O2
+Vysoký obvod referenčního napětí snímače O2
+Referenční napěťový obvod snímače O2/otevřeno
+Výkonnost referenčního napětí snímače O2
+Nízký obvod referenčního napětí snímače O2
+Vysoký obvod referenčního napětí snímače O2
+Řídicí obvod záporného proudu snímače O2/otevřeno
+Nízký záporný proud řídicího obvodu snímače O2
+Vysoký záporný proudový řídicí obvod snímače O2
+Řídicí obvod záporného proudu snímače O2/otevřeno
+Nízký záporný proud řídicího obvodu snímače O2
+Vysoký záporný proudový řídicí obvod snímače O2
+Nízký řídicí okruh 'A' systému sekundárního vstřikování vzduchu
+Vysoký řídicí okruh 'A' systému sekundárního vstřikování vzduchu
+Nízký řídicí okruh 'B' systému sekundárního vstřikování vzduchu
+Řídicí okruh 'B' systému sekundárního vstřikování vzduchu vysoký
+Obtokový ventil turbodmychadla/nadmychadla - mechanický
+Není detekován tlak turba - mechanické zařízení
+Výkonnost systému Turbo/Supercharger Boost
+Voda v obvodu palivového senzoru
+Voda v obvodu snímače paliva Rozsah/výkon
+Nízká hladina vody v obvodu palivového senzoru
+Voda v obvodu palivového senzoru vysoká
+Voda v obvodu snímače paliva Přerušovaný provoz
+Voda v palivu
+Signál snímače O2 uvízl v chudém stavu
+Signál snímače O2 uvízl v bohatém stavu
+Signál snímače O2 uvízl v chudém stavu
+Signál snímače O2 uvízl v bohatém stavu
+Signál snímače O2 uvízl v chudém stavu
+Signál snímače O2 uvízl v bohatém stavu
+Signál snímače O2 uvízl v chudém stavu
+Signál snímače O2 uvízl v bohatém stavu
+Vyměněné signály snímače O2 Snímač banky 1 3 / Snímač banky 2 3
+Netěsnost systému sání vzduchu
+Omezení průtoku vzduchu / únik vzduchu mezi vzduchovým filtrem a MAF
+Únik vzduchu mezi MAF a škrticí klapkou
+Únik vzduchu mezi škrticí klapkou a sacími ventily
+Obvod snímače řídicího tlaku vstřikovače
+Rozsah/výkon obvodu snímače řídicího tlaku vstřikovače
+Nízký obvod snímače řídicího tlaku vstřikovače
+Vysoký obvod snímače řídicího tlaku vstřikovače
+Přerušovaný obvod snímače řídicího tlaku vstřikovače
+Příliš vysoký řídicí tlak vstřikovače
+Příliš vysoký řídicí tlak ve vstřikovači - vypnutý motor
+Příliš nízký řídicí tlak vstřikovače
+Příliš nízký řídicí tlak ve vstřikovači - motor se vytáčí
+Chybný řídicí tlak vstřikovače
+Regulátor tlaku paliva 2 Výkon
+Řídicí obvod regulátoru tlaku paliva 2
+Nízký řídicí obvod regulátoru tlaku paliva 2
+Regulátor tlaku paliva 2 Řídicí okruh vysoký
+Snímač O2 mimo rozsah při zpomalování
+Snímač O2 mimo rozsah při zpomalování
+Neslučitelná poloha brzdového pedálu / pedálu akcelerátoru
+Nízký primární řídicí obvod zapalovací cívky 'A'
+Primární řídicí obvod zapalovací cívky 'A' vysoký
+Sekundární obvod zapalovací cívky 'A'
+Nízký primární řídicí obvod zapalovací cívky 'B'
+Primární řídicí obvod zapalovací cívky 'B' vysoký
+Sekundární obvod zapalovací cívky 'B'
+Nízký primární řídicí obvod zapalovací cívky 'C'
+Primární řídicí obvod zapalovací cívky 'C' vysoký
+Sekundární obvod zapalovací cívky 'C'
+Nízký primární řídicí obvod zapalovací cívky 'D'
+Primární řídicí obvod zapalovací cívky 'D' vysoký
+Sekundární obvod zapalovací cívky 'D'
+Nízký primární řídicí obvod zapalovací cívky 'E'
+Primární řídicí obvod zapalovací cívky 'E' vysoký
+Sekundární obvod zapalovací cívky 'E'
+Nízký primární řídicí obvod zapalovací cívky 'F'
+Primární řídicí obvod zapalovací cívky 'F' vysoký
+Sekundární obvod zapalovací cívky 'F'
+Nízký primární řídicí obvod zapalovací cívky 'G'
+Primární řídicí obvod zapalovací cívky 'G' vysoký
+Sekundární obvod zapalovací cívky 'G'
+Nízký primární řídicí obvod zapalovací cívky 'H'
+Primární řídicí obvod zapalovací cívky 'H' vysoký
+Sekundární obvod zapalovací cívky 'H'
+Nízký primární řídicí obvod zapalovací cívky 'I'
+Primární řídicí obvod zapalovací cívky 'I' vysoký
+Sekundární obvod zapalovací cívky 'I'
+Nízký primární řídicí obvod zapalovací cívky 'J'
+Primární řídicí obvod zapalovací cívky 'J' vysoký
+Sekundární obvod zapalovací cívky 'J'
+Nízký primární řídicí obvod zapalovací cívky 'K'
+Primární řídicí obvod zapalovací cívky 'K' vysoký
+Sekundární obvod zapalovací cívky 'K'
+Nízký primární řídicí obvod zapalovací cívky 'L'
+Primární řídicí obvod zapalovací cívky 'L' vysoký
+Sekundární obvod zapalovací cívky 'L'
+Válec č. 1 nad prahovou hodnotou klepání
+Válec č. 2 nad prahovou hodnotou klepání
+Válec č. 3 nad prahovou hodnotou klepání
+Válec č. 4 nad prahovou hodnotou klepání
+Válec č. 5 nad prahovou hodnotou klepání
+Válec č. 6 nad prahovou hodnotou klepání
+Válec č. 7 nad prahovou hodnotou klepání
+Válec č. 8 nad prahovou hodnotou klepání
+Válec č. 9 nad prahem klepání
+Válec č. 10 nad prahem klepání
+Válec č. 11 nad prahem klepání
+Válec č. 12 nad prahem klepání
+Systém detekce netěsnosti odpařovacích emisí Řídicí obvod čerpadla/otevřený okruh
+Nízký řídicí obvod čerpadla pro detekci netěsnosti systému výparů
+Systém detekce netěsnosti čerpadla odpařovacích emisí Vysoký řídicí obvod
+Systém detekce netěsnosti odpařovacích emisí Senzorový obvod čerpadla/otevřený obvod
+Systém detekce netěsnosti odpařovacích emisí Obvod detekce čerpadla Rozsah/výkon
+Systém detekce netěsnosti odpařovacích emisí Obvod detekce čerpadla nízký
+Obvod detekce netěsnosti čerpadla odpařovacího systému vysoký
+Systém detekce netěsnosti odpařovacích emisí Obvod detekce čerpadla Přerušovaný/nefunkční
+Obvod snímače/spínače víčka palivové nádrže
+Senzor/spínač palivového uzávěru Rozsah/výkon obvodu
+Nízký obvod snímače/spínače víčka palivové nádrže
+Vysoký obvod snímače/spínače víčka palivové nádrže
+Obvod snímače/spínače víčka palivové nádrže Přerušovaný/nepřetržitý provoz
+Výkon systému recirkulace výfukových plynů
+Chyba vzorku výfukových plynů snímače O2
+Chyba vzorku výfukových plynů snímače O2
+Vyměněné signály snímače O2 Snímač 1 banky 2 / Snímač 1 banky 3
+Vyměněné signály snímače O2 Snímač 2 banky 2 / Snímač 3 banky 2
+Řídicí obvod spínacího ventilu systému odpařovacích emisí / otevřeno
+Nízký řídicí obvod spínacího ventilu systému odpařovacích emisí
+Vysoký řídicí obvod spínacího ventilu systému odpařovacích emisí
+Otevřený odvzdušňovací ventil odpařovacího systému
+Zavřený odvzdušňovací ventil odpařovacího systému
+Účinnost adsorpčního katalyzátoru HC pod prahovou hodnotou
+Účinnost adsorpčního katalyzátoru HC pod prahovou hodnotou
+Řídicí obvod/otevřený ventil chlazení recirkulace výfukových plynů
+Nízký řídicí obvod chladicího ventilu recirkulace výfukových plynů
+Řídicí obvod chladicího ventilu recirkulace výfukových plynů vysoký
+Příliš vysoká teplota výfukových plynů
+Příliš vysoká teplota výfukových plynů
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu Rozsah/výkon
+Nízký obvod snímače průtoku/tlaku vzduchu v systému sekundárního vstřikování vzduchu
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu Vysoký
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu Přerušovaný/nepravidelný
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu Rozsah/výkon
+Nízký obvod snímače průtoku/tlaku vzduchu v systému sekundárního vstřikování vzduchu
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu Vysoký
+Systém sekundárního vstřikování vzduchu Obvod snímače průtoku/tlaku vzduchu Přerušovaný/nepravidelný
+Otevřený přepínací ventil systému sekundárního vstřikování vzduchu
+Uzavřený přepínací ventil systému sekundárního vstřikování vzduchu
+Otevřený přepínací ventil systému sekundárního vstřikování vzduchu
+Uzavřený přepínací ventil systému sekundárního vstřikování vzduchu
+Zaseknuté čerpadlo sekundárního vstřikování vzduchu
+Čerpadlo systému sekundárního vstřikování vzduchu se zaseklo ve vypnutém stavu
+Zaseknuté čerpadlo sekundárního vstřikování vzduchu
+Čerpadlo systému sekundárního vstřikování vzduchu se zaseklo ve vypnutém stavu
+Nízký stav lampy generátoru / koncového obvodu
+Vysoký obvod lampy generátoru / koncového obvodu
+Napětí nabíjecího systému
+Nízké napětí nabíjecího systému
+Vysoké napětí nabíjecího systému
+Vstupní napájecí signál ECM/PCM
+Rozsah/výkon vstupního signálu ECM/PCM
+Nízký vstupní napájecí signál ECM/PCM
+Vstupní signál napájení ECM/PCM vysoký
+Přerušovaný vstupní napájecí signál ECM/PCM
+ECM/PCM Senzorový obvod výkonového relé Rozsah/výkon
+ECM/PCM Senzorický obvod výkonového relé Přerušovaný provoz
+Okruh požadavku na záznamník dat událostí/otevřený
+Obvod požadavku na záznamník dat událostí Low
+Obvod požadavku na záznamník dat událostí High
+Obvod B snímače tlaku chladiva klimatizace
+Snímač tlaku chladiva v okruhu 'B' klimatizace Rozsah/výkon
+Snímač tlaku chladiva klimatizace 'B' nízký obvod
+Vysoký obvod čidla tlaku chladiva klimatizace 'B'
+Požadavek na okruh A klimatizace
+Nízká úroveň okruhu A požadavku na klimatizaci
+Požadavek na okruh 'A' klimatizace vysoký
+Požadavek na okruh A/C 'B'
+Nízká úroveň okruhu B požadavku na klimatizaci
+Požadavek na okruh A/C 'B' vysoký
+Obvod snímače tlaku vakuové nádrže
+Rozsah/výkon obvodu snímače tlaku vakuové nádrže
+Nízký obvod snímače tlaku ve vakuové nádrži
+Vysoký obvod snímače tlaku vakuové nádrže
+Přerušovaný obvod snímače tlaku vakuové nádrže
+Obvod spínače zapalování v poloze chodu
+Nízký obvod spínače zapalování v poloze chodu
+Obvod spínače zapalování v pracovní poloze High
+Obvod polohy spínače zapalování Spuštění/nastartování
+Nízký obvod polohy spínače zapalování Run/Start
+Obvod spínače zapalování v poloze spuštění/startování vysoký
+Obvod polohy příslušenství spínače zapalování
+Nízký obvod polohy příslušenství spínače zapalování
+Vysoký obvod polohy příslušenství spínače zapalování
+Obvod snímače nízkého tlaku palivového systému
+Snímač nízkého tlaku palivové soustavy Rozsah/výkon
+Snímač nízkého tlaku palivového systému Nízký obvod
+Obvod snímače nízkého tlaku palivového systému vysoký
+Přerušovaný obvod snímače nízkého tlaku palivového systému
+Vstupní signál 'A' požadavku na řízení točivého momentu
+Požadavek na řízení točivého momentu Vstupní signál 'A' Rozsah/výkonnost
+Požadavek na řízení točivého momentu Vstupní signál 'A' nízký
+Požadavek na řízení točivého momentu Vstupní signál 'A' vysoký
+Vstupní signál 'B' požadavku na řízení točivého momentu
+Požadavek na řízení točivého momentu Vstupní signál 'B' Rozsah/výkonnost
+Požadavek na řízení točivého momentu Vstupní signál 'B' nízký
+Požadavek na řízení točivého momentu Vstupní signál 'B' vysoký
+Obvod inhibice škrticí klapky/paliva
+Obvod škrticí klapky/zábrany přívodu paliva Rozsah/výkon
+Nízká hodnota obvodu inhibice plynu/paliva
+Obvod inhibice škrticí klapky/paliva vysoký
+Obvod snímače/spínače hladiny chladicí kapaliny motoru
+Snímač/spínač hladiny chladicí kapaliny motoru Rozsah/výkon obvodu
+Snímač/spínač hladiny chladicí kapaliny motoru Nízký obvod
+Vysoký obvod snímače/spínače hladiny chladicí kapaliny motoru
+Nízká hladina chladicí kapaliny motoru
+Požadované osvětlení MIL řídicího modulu klimatizace
+Obvod snímače polohy řízení zvýšení tlaku turbodmychadla
+Obvod snímače polohy regulace zvýšení tlaku turbodmychadla Rozsah/výkon
+Nízký obvod snímače polohy regulace zvýšení tlaku turbodmychadla
+Vysoký obvod snímače polohy regulace zvýšení tlaku turbodmychadla
+Obvod snímače polohy regulace zvyšování tlaku turbodmychadla Přerušovaný
+Obvod snímače teploty katalyzátoru přímé redukce ozonu
+Obvod snímače teploty katalyzátoru přímé redukce ozonu Rozsah/výkon
+Obvod snímače teploty katalyzátoru pro přímou redukci ozonu Nízká hodnota
+Obvod snímače teploty katalyzátoru pro přímou redukci ozonu Vysoký
+Obvod snímače teploty katalyzátoru přímé redukce ozonu Přerušený/nefunkční
+Přímý obvod snímače zhoršení stavu katalyzátoru redukce ozonu
+Přímý snímač degradace katalyzátoru redukce ozonu Rozsah/výkonnost obvodu
+Přímá redukce ozonu Katalyzátor Zhoršení stavu obvodu snímače Nízká hodnota
+Přímá redukce ozonu Obvod snímače zhoršení stavu katalyzátoru Vysoký
+Přímá redukce ozonu Katalyzátor zhoršení kvality Obvod snímače přerušovaný/chybový
+Účinnost katalyzátoru pro přímou redukci ozonu pod prahovou hodnotou
+Řídicí obvod čerpadla chladicí kapaliny/otevřený
+Řídicí obvod čerpadla chladicí kapaliny Rozsah/výkon
+Nízký řídicí obvod čerpadla chladicí kapaliny
+Vysoký řídicí obvod čerpadla chladicí kapaliny
+Rozsah/výkon okruhu ohřívače nasávaného vzduchu 'A'
+Okruh A ohřívače nasávaného vzduchu/otevřeno
+Rozsah/výkon okruhu ohřívače nasávaného vzduchu 'B'
+Nízký obvod ohřívače nasávaného vzduchu 'B'
+Obvod ohřívače nasávaného vzduchu 'B' vysoký
+Výkon systému ohřívače nasávaného vzduchu
+Výkon interního časovače vypnutí motoru ECM/PCM
+Řídicí okruh/otevřený distribuční ventil chladiva klimatizace
+Nízký řídicí obvod ventilu rozvodu chladiva klimatizace
+Vysoký řídicí obvod ventilu rozvodu chladiva klimatizace
+Výstupní obvod signálu polohy vačkového hřídele/otevřeno
+Nízký výstupní obvod signálu polohy vačkového hřídele
+Výstupní obvod signálu polohy vačkového hřídele vysoký
+Výstupní obvod signálu polohy klikového hřídele/otevřeno
+Nízký výstupní obvod signálu polohy klikového hřídele
+Výstupní obvod signálu polohy klikového hřídele vysoký
+Výstupní obvod polohy škrticí klapky/otevřeno
+Nízký výstupní obvod polohy škrticí klapky
+Výstupní obvod polohy škrticí klapky vysoký
+Obvod regulátoru řídicího tlaku vstřikovače/otevřeno
+Nízký obvod regulátoru řídicího tlaku vstřikovače
+Obvod regulátoru řídicího tlaku vstřikovače vysoký
+Snímač O2 čerpacího proudu Trimovací obvod/otevřený obvod
+Nízký proudový obvod trimování snímače O2
+Vysoký proudový obvod trimování snímače O2
+Snímač O2 čerpacího proudu Trimovací obvod/otevřený obvod
+Nízký proudový obvod trimování snímače O2
+Vysoký proudový obvod trimování snímače O2
+Řídicí obvod palivového čerpadla 'B' /otevřeno
+Nízký řídicí obvod palivového čerpadla 'B'
+Vysoký řídicí obvod palivového čerpadla 'B'
+Palivové čerpadlo 'A' nízký průtok / výkon
+Palivové čerpadlo 'B' Low Flow / Performance
+Signál zpětné vazby řízení točivého momentu 'A'
+Signál zpětné vazby řízení točivého momentu 'A' Rozsah/výkon
+Signál zpětné vazby řízení točivého momentu 'A' nízký
+Signál zpětné vazby řízení točivého momentu 'A' vysoký
+Signál zpětné vazby řízení točivého momentu 'B'
+Signál zpětné vazby řízení točivého momentu 'B' Rozsah/výkon
+Signál zpětné vazby řízení točivého momentu 'B' nízký
+Signál zpětné vazby řízení točivého momentu 'B' vysoký
+Ovládací obvod/otevřený obvod pohonu vahadla 'A'
+Systém pohonu vahadla 'A' Výkon nebo zaseknutí ve vypnutém stavu
+Systém pohonu vahadla 'A' se zasekl
+'A' Ovládací obvod pohonu vahadla nízký
+Obvod ovládání pohonu vahadla 'A' vysoký
+Ovládací obvod/otevřený obvod pohonu vahadla 'B'
+Systém pohonu vahadla 'B' Výkon nebo zaseknutí ve vypnutém stavu
+Systém pohonu vahadla 'B' zaseklý
+'B' Ovládací obvod pohonu vahadla nízký
+Obvod ovládání pohonu vahadla 'B' vysoký
+Ovládací obvod/otevřený obvod pohonu vahadla 'A'
+Systém pohonu vahadla 'A' Výkon nebo zaseknutí ve vypnutém stavu
+Systém pohonu vahadla 'A' se zasekl
+'A' Ovládací obvod pohonu vahadla nízký
+Obvod ovládání pohonu vahadla 'A' vysoký
+Ovládací obvod/otevřený obvod pohonu vahadla 'B'
+Systém pohonu vahadla 'B' Výkon nebo zaseknutí ve vypnutém stavu
+Systém pohonu vahadla 'B' zaseklý
+'B' Ovládací obvod pohonu vahadla nízký
+Obvod ovládání pohonu vahadla 'B' vysoký
+Řídicí obvod/otevřený uzavírací ventil paliva 'B'
+Nízký řídicí obvod uzavíracího ventilu paliva 'B'
+Řídicí obvod uzavíracího ventilu paliva 'B' vysoký
+Řídicí obvod kontrolky palivového režimu
+Napájecí napětí akčního členu obvod 'B' /otevřeno
+Nízké napájecí napětí obvodu 'B' akčního členu
+Vysoké napájecí napětí obvodu 'B' akčního členu
+Třecí prvek převodovky 'A' Časový rozsah/výkon použití
+Třecí prvek převodovky 'B' Časový rozsah/výkon použití
+Třecí prvek převodovky 'C' Časový rozsah/výkon použití
+Třecí prvek převodovky 'D' Časový rozsah/výkon použití
+Třecí prvek převodovky 'E' Časový rozsah/výkon použití
+Třecí prvek převodovky 'F' Časový rozsah/výkon použití
+Elektromagnetická cívka řazení 'F'
+Výkonnost nebo zaseknutí elektromagnetického ventilu řazení 'F' ve vypnutém stavu
+Zapnutý elektromagnetický ventil řazení 'F'
+Elektrická cívka řazení 'F'
+Přerušovaný elektromagnetický ventil řazení 'F'
+Neočekávané mechanické rozpojení převodovky
+Netěsnost hydraulické pohonné jednotky
+Solenoid pro regulaci tlaku 'D'
+Výkon nebo zaseknutí elektromagnetu regulace tlaku 'D' ve vypnutém stavu
+Zapnutý elektromagnetický ventil regulace tlaku 'D'
+Elektrická ovládací cívka tlaku 'D'
+Elektromagnetický ovladač tlaku 'D' Přerušovaný
+Řídicí obvod 'D' ovládacího elektromagnetu / otevřeno
+Řídicí obvod elektromagnetu 'D' Rozsah/výkon
+Nízký řídicí okruh ovládacího elektromagnetu 'D'
+Řídicí obvod 'D' ovládacího cívkového ventilu vysoký
+Solenoid pro regulaci tlaku 'E'
+Výkon nebo zaseknutí elektromagnetu regulace tlaku 'E' ve vypnutém stavu
+Zapnutý elektromagnetický ventil regulace tlaku 'E'
+Elektrická ovládací cívka tlaku 'E'
+Elektromagnetický ventil pro regulaci tlaku 'E' Přerušovaný
+Řídicí obvod ovládacího elektromagnetu 'E' / otevřeno
+Solenoid pro regulaci tlaku 'E' Rozsah/výkon regulačního obvodu
+Nízký řídicí okruh ovládacího elektromagnetu 'E'
+Ovládací obvod elektromagnetu 'E' Vysoký tlak
+Solenoid pro regulaci tlaku 'F'
+Výkon nebo zaseknutí vypnutého elektromagnetu regulace tlaku 'F'
+Zapnutý elektromagnetický ventil regulace tlaku 'F'
+Elektrická ovládací cívka tlaku 'F'
+Elektromagnetický ventil pro regulaci tlaku 'F' Přerušovaný
+Řídicí obvod F ovládacího elektromagnetu 'F'/otevřeno
+Řídicí elektromagnet 'F' Rozsah/výkon řídicího obvodu
+Nízký řídicí okruh ovládacího elektromagnetu 'F'
+Řídicí obvod 'F' ovládacího cívky tlaku High
+Obvod snímače teploty převodové kapaliny 'B'
+Snímač teploty převodové kapaliny obvodu 'B' Výkonnostní rozsah
+Nízký obvod snímače teploty převodové kapaliny 'B'
+Vysoký obvod snímače teploty převodové kapaliny 'B'
+Obvod snímače teploty převodové kapaliny 'B' Přerušovaný provoz
+Obvod snímače otáček mezinápravového hřídele 'B'
+Snímač otáček mezinápravového hřídele obvod 'B' Rozsah/výkon
+Snímač otáček mezinápravového hřídele obvod 'B' bez signálu
+Obvod snímače otáček mezinápravového hřídele 'B' přerušovaný
+Obvod C snímače otáček mezinápravového hřídele
+Snímač otáček mezilehlého hřídele Obvod 'C' Rozsah/výkon
+Obvod 'C' snímače otáček mezinápravového hřídele bez signálu
+Snímač otáček mezinápravového hřídele Obvod 'C' Přerušovaný
+Řídicí okruh chladiče převodové kapaliny/otevřeno
+Nízký řídicí obvod chladiče převodové kapaliny
+Řídicí obvod chladiče převodové kapaliny vysoký
+Ovládací cívka tlaku spojky měniče krouticího momentu
+Ovládací obvod elektromagnetické cívky měniče krouticího momentu Výkon nebo zaseknutí ve vypnutém stavu
+Zapnutý ovládací obvod elektromagnetického řízení tlaku spojky měniče krouticího momentu
+Ovládací obvod elektromagnetického ovládání spojky měniče točivého momentu Elektrický obvod
+Ovládací obvod elektromagnetického ovládání tlaku spojky měniče krouticího momentu Přerušovaný
+Řídicí obvod/rozpínací obvod elektromagnetu ovládání tlaku spojky měniče krouticího momentu
+Ovládací obvod elektromagnetu pro řízení tlaku spojky měniče krouticího momentu Rozsah/výkon
+Ovládací obvod elektromagnetického ovládání tlaku spojky měniče točivého momentu vysoký
+Řídicí obvod elektromagnetu ovládání tlaku spojky měniče krouticího momentu nízký
+Vstupní obvod/obvod snímače otáček turbíny 'B'
+Vstupní obvod / obvod snímače otáček turbíny 'B' Rozsah/výkon
+Vstupní obvod/obvod snímače otáček turbíny 'B' bez signálu
+Obvod vstupního snímače otáček turbíny 'B' Přerušovaný
+Nízký obvod spojky měniče točivého momentu
+Vysoký obvod spojky měniče točivého momentu
+Obvod nízkého spínače pohonu všech kol (4WD)
+Nízký spínací obvod pohonu všech kol (4WD) Rozsah/výkon
+Nízký spínací obvod pohonu všech kol (4WD) Nízký
+Obvod nízkého spínače pohonu všech kol (4WD) Vysoký
+Rozsah/výkon obvodu přepínače Upshift
+Nízký obvod spínače Upshift
+Obvod přepínače Upshift High
+Přerušovaný/nepravidelný obvod spínače Upshift
+Obvod spínače řazení dolů Rozsah/výkon
+Nízký obvod spínače řazení
+Vysoký obvod spínače řazení dolů
+Obvod spínače řazení dolů přerušovaný/nepravidelný
+Příliš vysoká teplota měniče točivého momentu
+Korelace mezi vstupem a snímačem otáček turbíny 'A'/'B'
+Příliš vysoká teplota spojkového pohonu
+Příliš vysoká teplota ovladače řazení
+Příliš vysoká teplota spojky
+Automatické řazení Manuální adaptivní učení na limitu
+Adaptivní učení spojky na limitu
+Obvod pro výběr směru brány
+Obvod volby směru brány nízký
+Obvod volby směru brány High
+Obvod směru řazení
+Obvod směru řazení nízký
+Obvod směru řazení rychlostních stupňů High
+Rozsah/výkon obvodu snímače O2
+Rozsah/výkon obvodu snímače O2
+Rozsah/výkon obvodu snímače O2
+Rozsah/výkon obvodu snímače O2
+Rozsah/výkon obvodu snímače O2
+Rozsah/výkon obvodu snímače O2
+Systém deaktivace válců
+Obvod ovládání deaktivace/sacího ventilu válce 1/otevřeno
+Deaktivace válce 1/řízení sacích ventilů Performance
+Deaktivace válce 1 / řídicí obvod sacího ventilu nízký
+Vysoký obvod řízení deaktivace/sacího ventilu válce 1
+Řídicí obvod/otevření výfukového ventilu válce 1
+Výkon ovládání výfukového ventilu válce 1
+Nízký řídicí obvod výfukového ventilu válce 1
+Obvod ovládání výfukového ventilu válce 1 vysoký
+Obvod ovládání deaktivace/sacího ventilu válce 2/otevřeno
+Deaktivace válce 2/řízení sacích ventilů Performance
+Nízký obvod řízení deaktivace/sacího ventilu válce 2
+Obvod deaktivace/ovládání sacího ventilu válce 2 vysoký
+Řídicí obvod/otevření výfukového ventilu válce 2
+Řízení výfukových ventilů válce 2
+Nízký řídicí obvod výfukového ventilu válce 2
+Obvod ovládání výfukového ventilu válce 2 vysoký
+Obvod ovládání deaktivace/sacího ventilu válce 3/otevřeno
+Deaktivace válce 3/řízení sacích ventilů Performance
+Deaktivace válce 3 / řídicí obvod sacího ventilu nízký
+Obvod řízení deaktivace / sacího ventilu válce 3 vysoký
+Řídicí obvod/otevření výfukového ventilu válce 3
+Výkon řízení výfukových ventilů válce 3
+Nízký řídicí obvod výfukového ventilu válce 3
+Obvod ovládání výfukového ventilu válce 3 vysoký
+Deaktivace válce 4 / obvod ovládání sacích ventilů / otevření
+Deaktivace válce 4/řízení sacích ventilů Performance
+Deaktivace válce 4/obvod řízení sacích ventilů nízký
+Deaktivace válce 4/obvod ovládání sacích ventilů vysoký
+Řídicí obvod/otevření výfukového ventilu válce 4
+Řízení výfukových ventilů válce 4
+Nízký řídicí obvod výfukového ventilu válce 4
+Obvod ovládání výfukového ventilu válce 4 vysoký
+Obvod řízení deaktivace/sacího ventilu válce 5/otevřeno
+Deaktivace válce 5/řízení sacích ventilů Performance
+Deaktivace válce 5/obvod ovládání sacích ventilů nízký
+Deaktivace válce 5/obvod ovládání sacích ventilů vysoký
+Řídicí obvod/otevření výfukového ventilu válce 5
+Výkon řízení výfukových ventilů válce 5
+Nízký řídicí obvod výfukového ventilu válce 5
+Obvod ovládání výfukového ventilu válce 5 vysoký
+Obvod řízení deaktivace/sacího ventilu válce 6/otevřeno
+Deaktivace válce 6/řízení sacích ventilů Performance
+Deaktivace válce 6/obvod řízení sacích ventilů nízký
+Deaktivace válce 6/obvod ovládání sacích ventilů vysoký
+Obvod řízení výfukového ventilu válce 6/otevřeno
+Výkon řízení výfukových ventilů válce 6
+Nízký řídicí obvod výfukového ventilu válce 6
+Obvod řízení výfukových ventilů válce 6 vysoký
+Deaktivace válce 7/obvod ovládání sacího ventilu/otevřeno
+Deaktivace válce 7/řízení sacích ventilů Performance
+Deaktivace válce 7/obvod ovládání sacího ventilu nízký
+Deaktivace válce 7/obvod ovládání sacího ventilu vysoký
+Válec 7 Řídicí obvod výfukového ventilu/otevřeno
+Výkonnost ovládání výfukových ventilů válce 7
+Nízký řídicí obvod výfukového ventilu válce 7
+Obvod ovládání výfukového ventilu 7 vysoký
+Obvod řízení deaktivace/sacího ventilu válce 8/otevřeno
+Deaktivace válce 8/řízení sacích ventilů Performance
+Deaktivace válce 8/obvod ovládání sacích ventilů nízký
+Deaktivace válce 8/obvod ovládání sacích ventilů vysoký
+Obvod ovládání výfukového ventilu válce 8/otevřeno
+Výkon řízení výfukových ventilů válce 8
+Nízký řídicí obvod výfukového ventilu válce 8
+Obvod ovládání výfukového ventilu válce 8 vysoký
+Obvod řízení deaktivace/sacího ventilu/otevření válce 9
+Deaktivace válce 9/řízení sacích ventilů Performance
+Deaktivace válce 9/obvod ovládání sacího ventilu nízký
+Deaktivace válce 9/obvod ovládání sacího ventilu vysoký
+Válec 9 Obvod ovládání výfukového ventilu/otevřený ventil
+Výkonnost ovládání výfukového ventilu válce 9
+Nízký řídicí obvod výfukového ventilu válce 9
+Obvod ovládání výfukového ventilu válce 9 vysoký
+Obvod ovládání deaktivace/sacího ventilu válce 10/otevřeno
+Deaktivace válce 10/řízení sacích ventilů Performance
+Nízký obvod ovládání deaktivace / sacího ventilu válce 10
+Obvod řízení deaktivace/ sacího ventilu válce 10 vysoký
+Válec 10 Řídicí obvod výfukového ventilu/otevřený ventil
+Válec 10 Řízení výfukových ventilů Výkon
+Nízký řídicí obvod výfukového ventilu válce 10
+Obvod ovládání výfukového ventilu válce 10 vysoký
+Obvod řízení deaktivace/sacího ventilu/otevření válce 11
+Deaktivace válce 11/řízení sacích ventilů Performance
+Deaktivace válce 11/obvod ovládání sacího ventilu nízký
+Deaktivace válce 11 / obvod ovládání sacího ventilu vysoký
+Válec 11 Řídicí obvod výfukového ventilu/otevřený ventil
+Válec 11 Řízení výfukových ventilů
+Válec 11 Nízký řídicí obvod výfukového ventilu
+Obvod ovládání výfukového ventilu 11 vysoký
+Obvod řízení deaktivace/sacího ventilu válce 12/otevřeno
+Deaktivace válce 12/řízení sacích ventilů Performance
+Deaktivace válce 12/obvod ovládání sacího ventilu nízký
+Deaktivace válce 12/obvod ovládání sacího ventilu vysoký
+Válec 12 Řídicí obvod výfukového ventilu/otevřený ventil
+Válec 12 Řízení výfukových ventilů Výkon
+Nízký řídicí obvod výfukového ventilu válce 12
+Obvod ovládání výfukového ventilu válce 12 vysoký
+Systém deaktivace válců
+Vysokorychlostní komunikační sběrnice CAN
+Vysokorychlostní komunikační sběrnice CAN (výkon)
+Vysokorychlostní komunikační sběrnice CAN (otevřená)
+Vysokorychlostní komunikační sběrnice CAN (nízká)
+Vysokorychlostní komunikační sběrnice CAN (High)
+Vysokorychlostní komunikační sběrnice CAN (otevřená)
+Vysokorychlostní komunikační sběrnice CAN (nízká)
+Vysokorychlostní komunikační sběrnice CAN (High)
+Vysokorychlostní komunikační sběrnice CAN (zkratovaná na sběrnici)
+Středně rychlá komunikační sběrnice CAN
+Středně rychlá komunikační sběrnice CAN (výkon)
+Středně rychlá komunikační sběrnice CAN (otevřená)
+Středně rychlá komunikační sběrnice CAN (nízká)
+Středně rychlá komunikační sběrnice CAN (vysoká)
+Středně rychlá komunikační sběrnice CAN (otevřená)
+Středně rychlá komunikační sběrnice CAN (nízká)
+Středně rychlá komunikační sběrnice CAN (vysoká)
+Středně rychlá komunikační sběrnice CAN (zkratovaná na sběrnici)
+Nízkorychlostní komunikační sběrnice CAN
+Nízkorychlostní komunikační sběrnice CAN (výkon)
+Nízkorychlostní komunikační sběrnice CAN (otevřená)
+Nízkorychlostní komunikační sběrnice CAN (nízká)
+Nízkorychlostní komunikační sběrnice CAN (vysoká)
+Nízkorychlostní komunikační sběrnice CAN (otevřená)
+Nízkorychlostní komunikační sběrnice CAN (nízká)
+Nízkorychlostní komunikační sběrnice CAN (vysoká)
+Nízkorychlostní komunikační sběrnice CAN (zkratovaná na sběrnici)
+Komunikační sběrnice vozidla A
+Komunikační sběrnice vozidla A (výkon)
+Komunikační sběrnice vozidla A (otevřená)
+Komunikační sběrnice vozidla A (nízká)
+Komunikační sběrnice vozidla A (vysoká)
+Komunikační sběrnice vozidla A (otevřená)
+Komunikační sběrnice vozidla A (nízká)
+Komunikační sběrnice vozidla A (vysoká)
+Komunikační sběrnice vozidla A (zkratovaná na sběrnici A)
+Komunikační sběrnice vozidla B
+Komunikační sběrnice vozidla B (výkon)
+Komunikační sběrnice vozidla B (otevřená)
+Komunikační sběrnice vozidla B (nízká)
+Komunikační sběrnice vozidla B (vysoká)
+Komunikační sběrnice vozidla B (otevřená)
+Komunikační sběrnice vozidla B (nízká)
+Komunikační sběrnice vozidla B (vysoká)
+Komunikační sběrnice vozidla B (zkratovaná na sběrnici B)
+Komunikační sběrnice vozidla C
+Komunikační sběrnice vozidla C (výkon)
+Komunikační sběrnice vozidla C (otevřená)
+Komunikační sběrnice vozidla C (nízká)
+Komunikační sběrnice vozidla C (vysoká)
+Komunikační sběrnice vozidla C (otevřená)
+Komunikační sběrnice vozidla C (nízká)
+Komunikační sběrnice vozidla C (vysoká)
+Komunikační sběrnice vozidla C (zkratovaná na sběrnici C)
+Komunikační sběrnice vozidla D
+Komunikační sběrnice vozidla D (výkon)
+Komunikační sběrnice vozidla D (otevřená)
+Komunikační sběrnice vozidla D (nízká)
+Komunikační sběrnice vozidla D (vysoká)
+Komunikační sběrnice vozidla D (otevřená)
+Komunikační sběrnice vozidla D (nízká)
+Komunikační sběrnice vozidla D (vysoká)
+Komunikační sběrnice vozidla D (zkratovaná na sběrnici D)
+Komunikační sběrnice vozidla E
+Komunikační sběrnice vozidla E (výkon)
+Komunikační sběrnice vozidla E (otevřená)
+Komunikační sběrnice vozidla E (nízká)
+Komunikační sběrnice vozidla E (vysoká)
+Komunikační sběrnice vozidla E (otevřená)
+Komunikační sběrnice vozidla E (nízká)
+Komunikační sběrnice vozidla E (vysoká)
+Komunikační sběrnice vozidla E (zkratovaná na sběrnici E)
+Komunikační sběrnice řídicího modulu Vypnuto
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Ztráta komunikace s ECM/PCM A
+Ztráta komunikace s TCM
+Ztráta komunikace s řídicím modulem převodovky
+Ztráta komunikace s modulem řazení
+Ztráta komunikace s modulem tempomatu
+Ztráta komunikace s řídicím modulem vstřikovače paliva
+Ztráta komunikace s řídicím modulem žhavicích svíček
+Ztráta komunikace s řídicím modulem škrticí klapky
+Ztráta komunikace s řídicím modulem alternativního paliva
+Ztráta komunikace s řídicím modulem palivového čerpadla
+Ztráta komunikace s řídicím modulem motoru pohonu
+Ztráta komunikace s řídicím modulem energie baterie 'A'
+Ztráta komunikace s modulem řízení energie baterie 'B'
+Ztráta komunikace s informacemi o kritických kontrolách emisí
+Ztráta komunikace s řídicím modulem spojky pohonu všech kol
+Ztráta komunikace s ECM/PCM B
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Ztráta komunikace s řídicím modulem protiblokovacího brzdového systému (ABS)
+Ztráta komunikace s řídicím modulem dynamiky vozidla
+Ztráta komunikace s modulem snímače výchylky
+Ztráta komunikace s modulem snímače bočního zrychlení
+Ztráta komunikace s víceosým modulem snímače zrychlení
+Ztráta komunikace s modulem snímače úhlu řízení
+Ztráta komunikace s modulem sledování tlaku v pneumatikách
+Ztráta komunikace s řídicím modulem parkovací brzdy
+Ztráta komunikace s řídicím modulem brzdového systému
+Ztráta komunikace s řídicím modulem řízení
+Ztráta komunikace s řídicím modulem posilovače řízení
+Ztráta komunikace s modulem řízení úrovně jízdy
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Rezervováno J2012
+Ztráta komunikace s řídicím modulem karoserie
+Ztráta komunikace s řídicím modulem karoserie 'A'
+Ztráta komunikace s řídicím modulem karoserie 'B'
+Ztráta komunikace s řídicím modulem karoserie 'C'
+Ztráta komunikace s řídicím modulem karoserie 'D'
+Ztráta komunikace s řídicím modulem karoserie 'E'
+Ztráta komunikace s bránou 'A'
+Ztráta komunikace s bránou B
+Ztráta komunikace s bránou 'C'
+Ztráta komunikace s bránou 'D'
+Ztráta komunikace s bránou 'E'
+Ztráta komunikace s řídicím modulem zádržných systémů
+Ztráta komunikace s řídicím modulem bočních zádržných systémů vlevo
+Ztráta komunikace s řídicím modulem bočních zádržných systémů vpravo
+Ztráta komunikace se zádržnými systémy Modul řízení snímání polohy cestujících
+Ztráta komunikace s řídicím modulem sdružených přístrojů (IPC)
+Ztráta komunikace s informačním centrem 'A'
+Ztráta komunikace s informačním centrem 'B'
+Ztráta komunikace s hlavním displejem
+Ztráta komunikace s řídicím modulem parkovacího asistenta
+Ztráta komunikace s řídicím modulem zvukové výstrahy
+Ztráta komunikace s modulem kompasu
+Ztráta komunikace s navigačním zobrazovacím modulem
+Ztráta komunikace s navigačním řídicím modulem
+Ztráta komunikace s řídicím modulem HVAC
+Ztráta komunikace s řídicím modulem HVAC vzadu
+Ztráta komunikace s řídicím modulem pomocného topení
+Ztráta komunikace s řídicím modulem imobilizéru vozidla
+Ztráta komunikace s řídicím modulem zabezpečení vozidla
+Ztráta komunikace s řídicím modulem střešního okna
+Ztráta komunikace s čidlem zádržného systému A
+Ztráta komunikace s čidlem zádržného systému B
+Ztráta komunikace s čidlem zádržného systému C
+Ztráta komunikace s čidlem zádržného systému D
+Ztráta komunikace s čidlem zádržného systému E
+Ztráta komunikace s čidlem zádržného systému F
+Ztráta komunikace s čidlem zádržného systému G
+Ztráta komunikace s čidlem zádržného systému H
+Ztráta komunikace s Senzorem zádržného systému I
+Ztráta komunikace s čidlem zádržného systému J
+Ztráta komunikace s modulem automatického řízení osvětlení
+Ztráta komunikace s řídicím modulem vyrovnávání světlometů
+Ztráta komunikace s řídicím modulem osvětlení vpředu
+Ztráta komunikace s řídicím modulem osvětlení vzadu
+Ztráta komunikace s rádiem
+Ztráta komunikace s řídicím modulem antény
+Ztráta komunikace se zvukovým zesilovačem
+Ztráta komunikace s modulem 'A' digitálního přehrávače/měniče disků
+Ztráta komunikace s modulem 'B' digitálního přehrávače/měniče disků
+Ztráta komunikace s modulem 'C' digitálního přehrávače/měniče disků
+Ztráta komunikace s modulem 'D' digitálního přehrávače/měniče disků
+Ztráta komunikace s televizí
+Ztráta komunikace s osobním počítačem
+Ztráta komunikace s Digitálním řídicím modulem zvuku A
+Ztráta komunikace s modulem modulem digitálního ovládání zvuku B
+Ztráta komunikace s modulem přijímače předplatného pro zábavu
+Ztráta komunikace s řídicím modulem zábavy na zadních sedadlech
+Ztráta komunikace s řídicím modulem telefonu
+Ztráta komunikace s řídicím modulem Telematic
+Ztráta komunikace s modulem řízení dveří A
+Ztráta komunikace s řídicím modulem dveří B
+Ztráta komunikace s modulem řízení dveří C
+Ztráta komunikace s řídicím modulem dveří D
+Ztráta komunikace s modulem řízení dveří E
+Ztráta komunikace s modulem řízení dveří F
+Ztráta komunikace s modulem řízení dveří G
+Ztráta komunikace s řídicím modulem skládací střechy
+Ztráta komunikace s řídicím modulem pohyblivé střechy
+Ztráta komunikace s řídicím modulem sedadla A
+Ztráta komunikace s řídicím modulem sedadla B
+Ztráta komunikace s řídicím modulem sedadla C
+Ztráta komunikace s řídicím modulem sedadla D
+Ztráta komunikace s řídicím modulem sloupku řízení
+Ztráta komunikace s řídicím modulem zrcadla
+Ztráta komunikace s dálkovým ovládáním funkcí
+Ztráta komunikace se spínačem dveří A
+Ztráta komunikace se spínačem dveří B
+Ztráta komunikace se spínačem dveří C
+Ztráta komunikace se spínačem dveří D
+Ztráta komunikace se spínačem dveří E
+Ztráta komunikace se spínačem dveří F
+Ztráta komunikace se spínačem dveří G
+Ztráta komunikace s motorem okna dveří A
+Ztráta komunikace s motorem oken dveří B
+Ztráta komunikace s motorem oken dveří C
+Ztráta komunikace s motorem okna dveří D
+Ztráta komunikace s motorem okna dveří E
+Ztráta komunikace s motorem oken dveří F
+Ztráta komunikace s motorem oken dveří G
+Ztráta komunikace s modulem vyhřívaného volantu
+Ztráta komunikace s modulem zadní brány
+Ztráta komunikace s modulem dešťového senzoru
+Ztráta komunikace s řídicím modulem detekce bočních překážek vlevo
+Ztráta komunikace s řídicím modulem detekce bočních překážek vpravo
+Ztráta komunikace s modulem Convenience Recall
+Ztráta komunikace s předním snímačem vzdálenosti tempomatu
+Nekompatibilita softwaru interního řídicího modulu
+Nekompatibilita softwaru s ECM/PCM
+Nekompatibilita softwaru s řídicím modulem převodovky
+Nekompatibilita softwaru s řídicím modulem převodovky
+Nekompatibilita softwaru s modulem pro ovládání řazení převodových stupňů
+Softwarová nekompatibilita s modulem tempomatu
+Nekompatibilita softwaru s řídicím modulem vstřikovače paliva
+Nekompatibilita softwaru s řídicím modulem žhavicích svíček
+Nekompatibilita softwaru s řídicím modulem škrticí klapky
+Nekompatibilita softwaru s řídicím modulem alternativního paliva
+Nekompatibilita softwaru s řídicím modulem palivového čerpadla
+Nekompatibilita softwaru s řídicím modulem motoru pohonu
+Softwarová nekompatibilita s modulem řízení energie baterie A
+Softwarová nekompatibilita s modulem řízení energie baterie B
+Nekompatibilita softwaru s řídicím modulem spojky pohonu všech kol
+Nekompatibilita softwaru s řídicím modulem protiblokovacího brzdového systému
+Nekompatibilita softwaru s modulem řízení dynamiky vozidla
+Nekompatibilita softwaru s modulem řízení parkovací brzdy
+Nekompatibilita softwaru s řídicím modulem brzdového systému
+Softwarová nekompatibilita s modulem řízení síly řízení
+Softwarová nekompatibilita s řídicím modulem posilovače řízení
+Nekompatibilita softwaru s modulem řízení úrovně jízdy
+Nekompatibilita softwaru s řídicím modulem karoserie
+Nekompatibilita softwaru s řídicím modulem panelu přístrojů
+Nekompatibilita softwaru s řídicím modulem HVAC
+Nekompatibilita softwaru s řídicím modulem pomocného topení
+Nekompatibilita softwaru s řídicím modulem imobilizéru vozidla
+Nekompatibilita softwaru s řídicím modulem zabezpečení vozidla
+Nekompatibilita softwaru s modulem snímače úhlu řízení
+Nekompatibilita softwaru s řídicím modulem sloupku řízení
+Nekompatibilita softwaru s modulem sledování tlaku v pneumatikách
+Nekompatibilita softwaru s řídicím modulem karoserie 'A'
+Neplatná přijatá data
+Neplatná data přijatá z ECM/PCM
+Neplatná data přijatá z modulu řízení přenosu
+Neplatná data přijatá z řídicího modulu převodovky
+Neplatná data přijatá z modulu řízení řazení převodových stupňů
+Neplatná data přijatá z modulu tempomatu
+Neplatná data přijatá z řídicího modulu vstřikovače paliva
+Neplatná data přijatá z řídicího modulu žhavicích svíček
+Neplatná data přijatá z řídicího modulu škrticí klapky
+Neplatné údaje přijaté z modulu řízení alternativního paliva
+Neplatná data přijatá z řídicího modulu palivového čerpadla
+Neplatná data přijatá z řídicího modulu motoru pohonu
+Neplatná data přijatá z modulu řízení energie baterie A
+Neplatná data přijatá z modulu řízení energie baterie B
+Neplatná data přijatá z řídicího modulu spojky pohonu všech kol
+Neplatné údaje přijaté z řídicího modulu protiblokovacího brzdového systému
+Neplatná data přijatá z řídicího modulu dynamiky vozidla
+Neplatná data přijatá z řídicího modulu parkovací brzdy
+Neplatná data přijatá z řídicího modulu brzdového systému
+Neplatné údaje přijaté z modulu řízení síly řízení
+Neplatné údaje přijaté z řídicího modulu posilovače řízení
+Neplatná data přijatá z modulu řízení úrovně jízdy
+Neplatná data přijatá z řídicího modulu karoserie
+Neplatná data přijatá z řídicího modulu panelu přístrojů
+Neplatná data přijatá z řídicího modulu HVAC
+Neplatná data přijatá z řídicího modulu pomocného topení
+Neplatné údaje přijaté z řídicího modulu imobilizéru vozidla
+Neplatné údaje přijaté z řídicího modulu zabezpečení vozidla
+Neplatná data přijatá z modulu snímače úhlu řízení
+Neplatná data přijatá z řídicího modulu sloupku řízení
+Neplatné údaje přijaté z modulu sledování tlaku v pneumatikách
+Neplatná data přijatá z řídicího modulu karoserie 'A'
+Dávkování paliva a vzduchu a pomocné řízení emisí
+Měření paliva a vzduchu
+Měření paliva a vzduchu
+Systém zapalování nebo nesprávný zážeh
+Pomocné řízení emisí
+Rychlost vozidla, řízení volnoběhu a pomocné vstupy
+Počítačové a pomocné výstupy
+Převodovka
+Převodovka
+Převodovka
+Hybridní pohon
+Výrobcem řízené dávkování paliva a vzduchu a pomocné řízení emisí
+Výrobcem řízené směšování paliva a vzduchu
+Měření paliva a vzduchu
+Systém zapalování nebo nesprávný zážeh
+Pomocné řízení emisí
+Rychlost vozidla, řízení volnoběhu a pomocné vstupy
+Počítačové a pomocné výstupy
+Převodovka
+DTC:
+MIL:
+Misfire:
+Palivový systém:
+Součásti:
+Katalyzátor:
+Vyhřívaný katalyzátor:
+Odpařovací systém:
+Systém sekundárního vzduchu:
+Chladivo klimatizace:
+Snímač kyslíku:
+Ohřívač kyslíkového senzoru:
+Systém EGRC7:
+Podporované PIDy
+Stav od vymazání DTC
+DTC způsobující zamrznutí snímku
+Stav palivového systému
+Vypočtená hodnota zatížení
+Teplota chladicí kapaliny
+Krátkodobé trimování paliva
+Dlouhodobé trimování paliva
+Krátkodobé trimování paliva
+Dlouhodobé trimování paliva
+Tlak v palivové sběrnici
+Tlak v sacím potrubí
+Otáčky motoru
+Rychlost vozidla
+Předstih časování
+Teplota nasávaného vzduchu
+Průtok vzduchu (MAF)
+Poloha škrticí klapky
+Stav sekundárního vzduchu
+Umístění snímačů O2
+Snímač O2: 1 - 1
+Snímač O2: 1 - 2
+Senzor O2: 1 - 3
+Snímač O2: 1 - 4
+Snímač O2: 2 - 1
+Snímač O2: 2 - 2
+Senzor O2: 2 - 3
+Senzor O2: 2 - 4
+Označení OBD
+Umístění snímačů O2
+Stav pomocného vstupu
+Doba od spuštění motoru
+Chod motoru se zapnutým MIL
+jiskra
+komprese
+CATALYST_MONITORING
+HEATED_CATALYST_MONITORING
+EVAPORATIVE_SYSTEM_MONITORING
+SECONDARY_AIR_SYSTEM_MONITORING
+Žádné,
+MONITOROVÁNÍ KYSLÍKOVÝCH_SENZORŮ
+MONITOROVÁNÍ KYSLÍKOVÝCH_SENZORŮ_OHŘÍVAČŮ
+EGR_VVT_SYSTEM_MONITORING
+NMHC_CATALYST_MONITORING
+NOX_SCR_AFTERTREATMENT_MONITORING
+BOOST_PRESSURE_MONITORING
+MONITOROVÁNÍ_SENZORU_VÝFUKOVÝCH_PLYNŮ
+PM_FILTER_MONITORING
+EGR_VVT_SYSTEM_MONITORING
+Otevřená smyčka z důvodu nedostatečné teploty motoru
+Uzavřená smyčka, která využívá zpětnou vazbu od kyslíkového senzoru k určení směsi paliva.
+Otevřená smyčka v důsledku zatížení motoru NEBO snížení spotřeby paliva v důsledku zpomalení
+Otevřená smyčka v důsledku poruchy systému
+Uzavřená smyčka s použitím alespoň jednoho kyslíkového snímače, ale v systému zpětné vazby je závada.
+Proti proudu
+Za katalyzátorem
+Z vnější atmosféry nebo mimo ni
+Čerpadlo zapnuté pro diagnostiku
+Nedefinované
+OBD-II podle definice CARB
+OBD podle definice EPA
+OBD a OBD-II
+OBD-I
+Není v souladu s OBD
+EOBD (Evropa)
+EOBD a OBD-II
+EOBD a OBD
+EOBD, OBD a OBD II
+JOBD (Japonsko)
+JOBD a OBD II
+JOBD a EOBD
+JOBD, EOBD a OBD II
+Rezervováno
+Rezervováno
+Rezervováno
+Diagnostika výrobce motoru (EMD)
+Rozšířená diagnostika výrobce motoru (EMD+)
+Palubní diagnostika pro těžká vozidla (dětská/částečná) (HD OBD-C)
+Palubní diagnostika pro těžká vozidla (HD OBD)
+Světově harmonizovaná OBD (WWH OBD)
+Rezervováno
+Těžká vozidla Euro OBD Stage I bez kontroly NOx (HD EOBD-I)
+Těžká vozidla Euro OBD Stage I s kontrolou NOx (HD EOBD-I N)
+Těžká vozidla Euro OBD Stage II bez kontroly NOx (HD EOBD-II)
+Euro OBD Stage II pro těžké nákladní vozy s kontrolou NOx (HD EOBD-II N)
+Rezervováno
+Brazílie Fáze 1 OBD (OBDBr-1)
+Brazílie Fáze 2 OBD (OBDBr-2)
+Korejská OBD (KOBD)
+Indie OBD I (IOBD I)
+Indie OBD II (IOBD II)
+Těžká vozidla Euro OBD Stage VI (HD EOBD-IV)
+Není k dispozici
+Benzín
+Metanol
+Ethanol
+Diesel
+LPG
+CNG
+Propan
+Elektrický
+Provoz na dvě paliva Benzín
+Dvoupalivový provoz s metanolem
+Palivo Bifuel s etanolem
+Dvoupalivový pohon LPG
+Dvoupalivový pohon na CNG
+Bifuel s pohonem na propan
+Bifuel running Elektřina
+Dvoupalivový elektrický a spalovací motor
+Hybridní benzín
+Hybridní etanol
+Hybridní vznětový motor
+Hybridní elektrický pohon
+Hybridní pohon elektrickým a spalovacím motorem
+Hybridní regenerační
+Dvoupalivová motorová nafta
+Prahové napětí snímače bohatosti na chudost
+Prahové napětí snímače chudých na bohaté
+Nízké napětí snímače pro výpočet doby spínání
+Vysoké napětí snímače pro výpočet doby spínání
+Doba přepnutí snímače bohatosti na chudost
+Doba přepnutí snímače chudých na bohaté
+Minimální napětí snímače pro testovací cyklus
+Maximální napětí snímače pro zkušební cyklus
+Doba mezi přechody snímačů
+Perioda senzoru
+Průměrné počty chybných zážehů za posledních deset jízdních cyklů
+Počty chybných zážehů pro poslední/aktuální jízdní cykly
+Podporované PID [01-20]
+Stav od vymazání DTC
+DTC, který spustil zmrazení snímku
+Stav palivového systému
+Vypočtené zatížení motoru
+Teplota chladicí kapaliny motoru
+Krátkodobý trim paliva - banka 1
+Dlouhodobý trim paliva - banka 1
+Krátkodobý trim paliva - banka 2
+Dlouhodobý trim paliva - banka 2
+Tlak paliva
+Tlak v sacím potrubí
+Otáčky motoru
+Rychlost vozidla
+Předstih časování
+Teplota nasávaného vzduchu
+Průtok vzduchu (MAF)
+Poloha škrticí klapky
+Stav sekundárního vzduchu
+Přítomnost senzorů O2
+O2: Banka 1 - napětí senzoru 1
+O2: Banka 1 - Senzor 2 Napětí
+O2: Banka 1 - Senzor 3 Napětí
+O2: Banka 1 - Senzor 4 Napětí
+O2: Banka 2 - Napětí snímače 1
+O2: Banka 2 - napětí senzoru 2
+O2: Banka 2 - Senzor 3 Napětí
+O2: Banka 2 - Senzor 4 Napětí
+Soulad s normami OBD
+Přítomnost snímačů O2 (náhradní)
+Stav pomocného vstupu (odpojení napájení)
+Doba chodu motoru
+Podporované PID [21-40]
+Ujetá vzdálenost s MIL
+Tlak v palivové liště (ve vztahu k podtlaku)
+Tlak v palivové liště (přímé vstřikování)
+02 Senzor 1 WR Lambda napětí
+02 Senzor 2 WR Lambda napětí
+02 Senzor 3 WR Lambda napětí
+02 Senzor 4 WR Lambda napětí
+02 Senzor 5 WR Lambda napětí
+02 Senzor 6 WR Lambda napětí
+02 Senzor 7 WR Lambda napětí
+02 Senzor 8 WR Lambda napětí
+Příkaz EGR
+Chyba EGR
+Příkaz k odpařování
+Vstupní hladina paliva
+Počet zahřátí od vymazání kódů
+Ujetá vzdálenost od vymazání kódů
+Tlak par odpařovacího systému
+Barometrický tlak
+02 Senzor 1 WR Lambda Current
+02 Senzor 2 WR Lambda Current
+02 Senzor 3 WR Lambda Current
+02 Senzor 4 WR Lambda Current
+02 Senzor 5 WR Lambda Current
+02 Senzor 6 WR Lambda Current
+02 Senzor 7 WR Lambda Current
+02 Senzor 8 WR Lambda proud
+Teplota katalyzátoru: Banka 1 - Senzor 1
+Teplota katalyzátoru: Banka 2 - Senzor 1
+Teplota katalyzátoru: Banka 1 - Senzor 2
+Teplota katalyzátoru: Banka 2 - Senzor 2
+Podporované PID [41-60]
+Stav monitoru v tomto cyklu pohonu
+Napětí řídicího modulu
+Absolutní hodnota zatížení
+Příkazový ekvivalentní poměr
+Relativní poloha škrticí klapky
+Teplota okolního vzduchu
+Absolutní poloha škrticí klapky B
+Absolutní poloha škrticí klapky C
+Poloha pedálu akcelerátoru D
+Poloha pedálu akcelerátoru E
+Poloha pedálu akcelerátoru F
+Ovladač škrticí klapky s příkazem
+Čas běhu se zapnutým MIL
+Doba od vymazání chybových kódů
+Různé maximální hodnoty
+Maximální hodnota pro snímač hmotnostního průtoku vzduchu
+Typ paliva
+Etanolové palivo Procento
+Absolutní odpařovací systém Tlak par
+Tlak par v odpařovacím systému
+Krátkodobý sekundární trim O2 - banka 1
+Dlouhodobý sekundární trim O2 - banka 1
+Krátkodobý sekundární trim O2 - banka 2
+Dlouhodobý sekundární trim O2 - banka 2
+Tlak v palivové liště (absolutní)
+Relativní poloha pedálu plynu
+Zbývající životnost hybridního akumulátoru
+Teplota motorového oleje
+Časování vstřikování paliva
+Množství paliva v motoru
+Navržené emisní požadavky
+Získat DTC
+Vymazání DTC a zmrazení dat
+Podporované MID [01-20]
+Monitor snímače O2 Banka 1 - Snímač 1
+Monitor snímače O2 Banka 1 - Snímač 2
+Monitor snímače O2 Banka 1 - Snímač 3
+Monitor snímače O2 Banka 1 - Snímač 4
+Monitor snímače O2 Banka 2 - Snímač 1
+Monitor snímače O2 Banka 2 - Snímač 2
+Monitor snímače O2 Banka 2 - Snímač 3
+Monitor snímače O2 Banka 2 - Snímač 4
+Monitor snímače O2 Banka 3 - Snímač 1
+Monitor snímače O2 Banka 3 - Snímač 2
+Monitor snímače O2 Banka 3 - Snímač 3
+Monitor snímače O2 Banka 3 - Snímač 4
+Monitor snímače O2 Banka 4 - Snímač 1
+Monitor snímače O2 Banka 4 - Snímač 2
+Monitor snímače O2 Banka 4 - Snímač 3
+Monitor snímače O2 Banka 4 - Snímač 4
+Podporované MID [21-40]
+Catalyst Monitor Bank 1
+Catalyst Monitor Bank 2
+Catalyst Monitor Bank 3
+Catalyst Monitor Bank 4
+Monitor EGR Banka 1
+Monitor EGR Banka 2
+Monitor EGR Banka 3
+Monitor EGR Banka 4
+VVT Monitor Bank 1
+VVT Monitor Bank 2
+VVT Monitor Bank 3
+VVT Monitor Bank 4
+Monitor průtoku proplachování
+Podporované MID [41-60]
+Monitor ohřevu snímače O2 Banka 1 - Snímač 1
+Monitor ohřevu snímače O2 Banka 1 - Snímač 2
+Monitor ohřevu snímače O2 Banka 1 - Snímač 3
+Monitor ohřevu snímače O2 Banka 1 - Snímač 4
+Monitor ohřevu snímače O2 Banka 2 - Snímač 1
+Monitor ohřevu snímače O2 Banka 2 - Snímač 2
+Monitor ohřevu snímače O2 Banka 2 - Snímač 3
+Monitor ohřevu snímače O2 Banka 2 - Snímač 4
+Monitor ohřevu snímače O2 Banka 3 - Snímač 1
+Monitor ohřevu snímače O2 Banka 3 - Snímač 2
+Monitor ohřevu snímače O2 Banka 3 - Snímač 3
+Monitor ohřevu snímače O2 Banka 3 - Snímač 4
+Monitor ohřevu snímače O2 Banka 4 - Snímač 1
+Monitor ohřevu snímače O2 Banka 4 - Snímač 2
+Monitor ohřevu snímače O2 Banka 4 - Snímač 3
+Monitor ohřevu snímače O2 Banka 4 - Snímač 4
+Podporované MID [61-80]
+Vyhřívaný monitor katalyzátoru Banka 1
+Vyhřívaný katalyzátor Monitor Bank 2
+Vyhřívaný katalyzátor Monitor Bank 3
+Vyhřívaný monitor katalyzátoru Banka 4
+Sekundární monitor vzduchu 1
+Sekundární monitor vzduchu 2
+Sekundární monitor vzduchu 3
+Sekundární monitor vzduchu 4
+Podporované MID [81-A0]
+Monitor palivového systému Banka 1
+Monitor palivového systému Banka 2
+Monitor palivového systému Banka 3
+Monitor palivového systému Banka 4
+Monitor regulace tlaku zvyšování tlaku Banka 1
+Monitor regulace tlaku zvyšování tlaku Banka 1
+Monitor absorbéru NOx Banka 1
+Monitor absorbéru NOx Banka 2
+Monitor katalyzátoru NOx Banka 1
+Monitor katalyzátoru NOx Banka 2
+Podporované MID [A1-C0]
+Misfire Monitor Obecné údaje
+Údaje o chybném zážehu válce 1
+Údaje o chybném zážehu válce 2
+Údaje o chybném zážehu válce 3
+Údaje o nesprávném zapálení válce 4
+Údaje o chybném zážehu válce 5
+Údaje o nesprávném zapálení válce 6
+Údaje o chybném zážehu válce 7
+Údaje o nesprávném zapálení válce 8
+Údaje o chybném zážehu válce 9
+Údaje o chybném zážehu válce 10
+Údaje o nesprávném zážehu válce 11
+Údaje o chybném zážehu válce 12
+Monitor filtru PM Banka 1
+Monitor filtru PM Banka 2
+Získání DTC z aktuálního/posledního jízdního cyklu
+Podporované PID [01-20]
+Počet zpráv VIN
+Počet kalibračních ID zpráv pro PID 04
+Počet zpráv CVN pro PID 06
+Kalibrační ověřovací čísla
+Řetězec verze ELM327
+Napětí detekované adaptérem OBD-II
+Připojeno k:
+VIN
+Graph
