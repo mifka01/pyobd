@@ -135,8 +135,8 @@ class Sensor:
 
 SENSORS = [
     Sensor("          Supported PIDs", "0100", hex_to_bitstring  ,""       ),    
-    Sensor("Status Since DTC Cleared", "0101", dtc_decrypt       ,""       ),    
-    Sensor("DTC Causing Freeze Frame", "0102", cpass             ,""       ),    
+    Sensor("Stav od vymazání DTC", "0101", dtc_decrypt       ,""       ),    
+    Sensor("DTC způsobující zamrznutí snímku", "0102", cpass             ,""       ),    
     Sensor("      Fuel System Status", "0103", cpass             ,""       ),
     Sensor("   Calculated Load Value", "0104", percent_scale     ,""       ),    
     Sensor("     Coolant Temperature", "0105", temp              ,"C"      ),
@@ -145,7 +145,7 @@ SENSORS = [
     Sensor("    Short Term Fuel Trim", "0108", fuel_trim_percent ,"%"      ),
     Sensor("     Long Term Fuel Trim", "0109", fuel_trim_percent ,"%"      ),
     Sensor("      Fuel Rail Pressure", "010A", cpass             ,""       ),
-    Sensor("Intake Manifold Pressure", "010B", intake_m_pres     ,"psi"    ),
+    Sensor("Tlak v sacím potrubí", "010B", intake_m_pres     ,"psi"    ),
     Sensor("              Engine RPM", "010C", rpm               ,""       ),
     Sensor("           Vehicle Speed", "010D", speed             ,"MPH"    ),
     Sensor("          Timing Advance", "010E", timing_advance    ,"degrees"),

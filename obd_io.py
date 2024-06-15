@@ -75,7 +75,7 @@ class OBDConnection:
             except:
                 pass
             self.connection = obd.OBD(portstr=portnum, baudrate=baud, protocol=None, fast=FAST, timeout=truncate(float(SERTIMEOUT),1), check_voltage=False, start_low_power=False)
-            if self.connection.status() == "Car Connected":
+            if self.connection.status() == "Připojení k automobilu":
                 wx.PostEvent(self._notify_window, DebugEvent([2, "Connected to: "+ str(self.connection.port_name())]))
                 break
             else:

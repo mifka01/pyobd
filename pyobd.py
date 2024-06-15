@@ -123,21 +123,21 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-TESTS = ["MISFIRE_MONITORING",
-    "FUEL_SYSTEM_MONITORING",
-    "COMPONENT_MONITORING",
-    "CATALYST_MONITORING",
-    "HEATED_CATALYST_MONITORING",
-    "EVAPORATIVE_SYSTEM_MONITORING",
-    "SECONDARY_AIR_SYSTEM_MONITORING",
-    "OXYGEN_SENSOR_MONITORING",
-    "OXYGEN_SENSOR_HEATER_MONITORING",
-    "EGR_VVT_SYSTEM_MONITORING",
-    "NMHC_CATALYST_MONITORING",
-    "NOX_SCR_AFTERTREATMENT_MONITORING",
-    "BOOST_PRESSURE_MONITORING",
-    "EXHAUST_GAS_SENSOR_MONITORING",
-    "PM_FILTER_MONITORING"]
+TESTS = ["MONITOROVÁNÍ CHYBNÝCH ZÁŽEHŮ",
+    "MONITOROVÁNÍ PALIVOVÉHO SYSTÉMU",
+    "MONITOROVÁNÍ KOMPONENT",
+    "MONITOROVÁNÍ KATALYZÁTORU",
+    "MONITOROVÁNÍ VYHŘÍVANÉHO KATALYZÁTORU",
+    "MONITOROVÁNÍ ODPAŘOVACÍHO SYSTÉMU",
+    "MONITOROVÁNÍ SYSTÉMU SEKUNDÁRNÍHO VZDUCHU",
+    "MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ",
+    "MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ OHŘÍVAČŮ",
+    "MONITOROVÁNÍ SYSTÉMU EGR VVT",
+    "MONITOROVÁNÍ KATALYZÁTORU NMHC",
+    "MONITOROVÁNÍ NÁSLEDNÉHO ZPRACOVÁNÍ EMISÍ NOX SCR",
+    "MONITOROVÁNÍ PLNICÍHO TLAKU",
+    "MONITOROVÁNÍ SENZORU VÝFUKOVÝCH PLYNŮ",
+    "MONITOROVÁNÍ PM FILTRU"]
 
 def EVT_RESULT(win, func, id):
     """Define Result Event."""
@@ -381,18 +381,18 @@ class MyApp(wx.App):
                 self.connection.close()
             except:
                 pass
-            wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Connecting...."]))
+            wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Připojení...."]))
             self.connection = obd_io.OBDConnection(self.portName, self._notify_window, self.baudrate, self.SERTIMEOUT,self.RECONNATTEMPTS, self.FAST)
             if self.connection.connection.status() != 'Car Connected':  # Cant open serial port
                 print(self.connection.connection.status())
                 #wx.PostEvent(self._notify_window, StatusEvent([666]))  # signal apl, that communication was disconnected
                 #wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Error cant connect..."]))
-                #self.state="finished"
+                #self.state="dokončeno"
                 self.stop()
                 return None
             elif self.connection.connection.status() == 'Car Connected':
-                wx.PostEvent(self._notify_window, DebugEvent([1, "Communication initialized..."]))
-                wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Car connected!"]))
+                wx.PostEvent(self._notify_window, DebugEvent([1, "Komunikace inicializována..."]))
+                wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Připojení k autu!"]))
 
                 r = self.connection.connection.query(obd.commands.ELM_VERSION)
                 self.ELMver = str(r.value)
@@ -420,7 +420,7 @@ class MyApp(wx.App):
 
             if self.initCommunication() != "OK":
                 self._notify_window.ThreadControl = 666
-                self.state = "finished"
+                self.state = "dokončeno"
                 return None
 
             self.baudrate = self.connection.connection.interface.baudrate()
@@ -574,107 +574,107 @@ class MyApp(wx.App):
                             continue
 
                         if r.value.MISFIRE_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([0, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([0, 1, "Dostupné na"]))
                             if r.value.MISFIRE_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([0, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([0, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([0, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([0, 2, "Neúplné"]))
                         if r.value.FUEL_SYSTEM_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([1, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([1, 1, "Dostupné na"]))
                             if r.value.FUEL_SYSTEM_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([1, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([1, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([1, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([1, 2, "Neúplné"]))
                         if r.value.COMPONENT_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([2, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([2, 1, "Dostupné na"]))
                             if r.value.COMPONENT_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([2, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([2, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([2, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([2, 2, "Neúplné"]))
 
                         if r.value.CATALYST_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([3, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([3, 1, "Dostupné na"]))
                             if r.value.CATALYST_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([3, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([3, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([3, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([3, 2, "Neúplné"]))
 
                         if r.value.HEATED_CATALYST_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([4, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([4, 1, "Dostupné na"]))
                             if r.value.HEATED_CATALYST_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([4, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([4, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([4, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([4, 2, "Neúplné"]))
 
                         if r.value.EVAPORATIVE_SYSTEM_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([5, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([5, 1, "Dostupné na"]))
                             if r.value.EVAPORATIVE_SYSTEM_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([5, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([5, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([5, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([5, 2, "Neúplné"]))
 
                         if r.value.SECONDARY_AIR_SYSTEM_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([6, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([6, 1, "Dostupné na"]))
                             if r.value.SECONDARY_AIR_SYSTEM_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([6, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([6, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([6, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([6, 2, "Neúplné"]))
 
                         if r.value.OXYGEN_SENSOR_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([7, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([7, 1, "Dostupné na"]))
                             if r.value.OXYGEN_SENSOR_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([7, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([7, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([7, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([7, 2, "Neúplné"]))
 
                         if r.value.OXYGEN_SENSOR_HEATER_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([8, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([8, 1, "Dostupné na"]))
                             if r.value.OXYGEN_SENSOR_HEATER_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([8, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([8, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([8, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([8, 2, "Neúplné"]))
 
                         if r.value.EGR_VVT_SYSTEM_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([9, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([9, 1, "Dostupné na"]))
                             if r.value.EGR_VVT_SYSTEM_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([9, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([9, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([9, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([9, 2, "Neúplné"]))
 
                         if r.value.NMHC_CATALYST_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([10, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([10, 1, "Dostupné na"]))
                             if r.value.NMHC_CATALYST_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([10, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([10, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([10, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([10, 2, "Neúplné"]))
 
                         if r.value.NOX_SCR_AFTERTREATMENT_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([11, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([11, 1, "Dostupné na"]))
                             if r.value.NOX_SCR_AFTERTREATMENT_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([11, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([11, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([11, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([11, 2, "Neúplné"]))
 
                         if r.value.BOOST_PRESSURE_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([12, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([12, 1, "Dostupné na"]))
                             if r.value.BOOST_PRESSURE_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([12, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([12, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([12, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([12, 2, "Neúplné"]))
 
                         if r.value.EXHAUST_GAS_SENSOR_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([13, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([13, 1, "Dostupné na"]))
                             if r.value.EXHAUST_GAS_SENSOR_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([13, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([13, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([13, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([13, 2, "Neúplné"]))
 
                         if r.value.PM_FILTER_MONITORING.available:
-                            wx.PostEvent(self._notify_window, TestEvent([14, 1, "Available"]))
+                            wx.PostEvent(self._notify_window, TestEvent([14, 1, "Dostupné na"]))
                             if r.value.PM_FILTER_MONITORING.complete:
-                                wx.PostEvent(self._notify_window, TestEvent([14, 2, "Complete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([14, 2, "Kompletní"]))
                             else:
-                                wx.PostEvent(self._notify_window, TestEvent([14, 2, "Incomplete"]))
+                                wx.PostEvent(self._notify_window, TestEvent([14, 2, "Neúplné"]))
 
                         response = self.connection.connection.query(obd.commands.MONITOR_MISFIRE_CYLINDER_1)
                         if response.value != None:
@@ -730,21 +730,21 @@ class MyApp(wx.App):
 
 
                     """
-                    "MISFIRE_MONITORING",
-                    "FUEL_SYSTEM_MONITORING",
-                    "COMPONENT_MONITORING",
-                    "CATALYST_MONITORING",
-                    "HEATED_CATALYST_MONITORING",
-                    "EVAPORATIVE_SYSTEM_MONITORING",
-                    "SECONDARY_AIR_SYSTEM_MONITORING",
-                    "OXYGEN_SENSOR_MONITORING",
-                    "OXYGEN_SENSOR_HEATER_MONITORING",
-                    "EGR_VVT_SYSTEM_MONITORING",
-                    "NMHC_CATALYST_MONITORING",
-                    "NOX_SCR_AFTERTREATMENT_MONITORING",
-                    "BOOST_PRESSURE_MONITORING",
-                    "EXHAUST_GAS_SENSOR_MONITORING",
-                    "PM_FILTER_MONITORING"
+                    "MONITOROVÁNÍ CHYBNÝCH ZÁŽEHŮ",
+                    "MONITOROVÁNÍ PALIVOVÉHO SYSTÉMU",
+                    "MONITOROVÁNÍ KOMPONENT",
+                    "MONITOROVÁNÍ KATALYZÁTORU",
+                    "MONITOROVÁNÍ VYHŘÍVANÉHO KATALYZÁTORU",
+                    "MONITOROVÁNÍ ODPAŘOVACÍHO SYSTÉMU",
+                    "MONITOROVÁNÍ SYSTÉMU SEKUNDÁRNÍHO VZDUCHU",
+                    "MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ",
+                    "MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ OHŘÍVAČŮ",
+                    "MONITOROVÁNÍ SYSTÉMU EGR VVT",
+                    "MONITOROVÁNÍ KATALYZÁTORU NMHC",
+                    "MONITOROVÁNÍ NÁSLEDNÉHO ZPRACOVÁNÍ EMISÍ NOX SCR",
+                    "MONITOROVÁNÍ PLNICÍHO TLAKU",
+                    "MONITOROVÁNÍ SENZORU VÝFUKOVÝCH PLYNŮ",
+                    "MONITOROVÁNÍ PM FILTRU"
                     """
 
                 elif curstate == 2:  # show sensor tab
@@ -833,7 +833,7 @@ class MyApp(wx.App):
                             for dtccode in DTCCODES:
                                 wx.PostEvent(self._notify_window, DTCEvent(dtccode))
                         elif len(DTCCODES) == 0:
-                            wx.PostEvent(self._notify_window, DTCEvent(["", "", "No DTC codes (codes cleared)"]))
+                            wx.PostEvent(self._notify_window, DTCEvent(["", "", "Žádné kódy DTC (kódy vymazány)"]))
 
                 elif curstate == 4:  # show freezeframe tab
                     if first_time_freezeframe:
@@ -953,13 +953,13 @@ class MyApp(wx.App):
 
                                 if s.value == None:
                                     wx.PostEvent(self._notify_window, GraphValueEvent([0, 2, str(0)]))
-                                    self.unit = "unit"
+                                    self.unit = "jednotka"
                                 else:
                                     wx.PostEvent(self._notify_window, GraphValueEvent([0, 2, str(s.value)]))
                                     try:
                                         self.unit = str(s.value).split(' ')[1]
                                     except IndexError:
-                                        self.unit = "unit"
+                                        self.unit = "jednotka"
 
 
                         else:
@@ -1109,13 +1109,13 @@ class MyApp(wx.App):
                                 #wx.PostEvent(self._notify_window, GraphEvent(self.current_command1))
                                 if s.value == None:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([0, 2, str(0)]))
-                                    self.unit1 = "unit"
+                                    self.unit1 = "jednotka"
                                 else:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([0, 2, str(s.value)]))
                                     try:
                                         self.unit1 = str(s.value).split(' ')[1]
                                     except IndexError:
-                                        self.unit1 = "unit"
+                                        self.unit1 = "jednotka"
                         else:
                             self.graph_x_vals1 = np.array([])
                             self.graph_y_vals1 = np.array([])
@@ -1157,13 +1157,13 @@ class MyApp(wx.App):
                                 #wx.PostEvent(self._notify_window, GraphEvent(self.current_command2))
                                 if s.value == None:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([1, 2, str(0)]))
-                                    self.unit2 = "unit"
+                                    self.unit2 = "jednotka"
                                 else:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([1, 2, str(s.value)]))
                                     try:
                                         self.unit2 = str(s.value).split(' ')[1]
                                     except IndexError:
-                                        self.unit2 = "unit"
+                                        self.unit2 = "jednotka"
                         else:
                             self.graph_x_vals2 = np.array([])
                             self.graph_y_vals2 = np.array([])
@@ -1205,13 +1205,13 @@ class MyApp(wx.App):
                                 #wx.PostEvent(self._notify_window, GraphEvent(self.current_command3))
                                 if s.value == None:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([2, 2, str(0)]))
-                                    self.unit3 = "unit"
+                                    self.unit3 = "jednotka"
                                 else:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([2, 2, str(s.value)]))
                                     try:
                                         self.unit3 = str(s.value).split(' ')[1]
                                     except IndexError:
-                                        self.unit3 = "unit"
+                                        self.unit3 = "jednotka"
                         else:
                             self.graph_x_vals3 = np.array([])
                             self.graph_y_vals3 = np.array([])
@@ -1255,13 +1255,13 @@ class MyApp(wx.App):
                                 #wx.PostEvent(self._notify_window, GraphEvent(self.current_command4))
                                 if s.value == None:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([3, 2, str(0)]))
-                                    self.unit4 = "unit"
+                                    self.unit4 = "jednotka"
                                 else:
                                     wx.PostEvent(self._notify_window, GraphsValueEvent([3, 2, str(s.value)]))
                                     try:
                                         self.unit4 = str(s.value).split(' ')[1]
                                     except IndexError:
-                                        self.unit4 = "unit"
+                                        self.unit4 = "jednotka"
                         else:
                             self.graph_x_vals4 = np.array([])
                             self.graph_y_vals4 = np.array([])
@@ -1304,7 +1304,7 @@ class MyApp(wx.App):
                         continue
                 time_end = datetime.datetime.now()
                 first_time = False
-            self.state = "finished"
+            self.state = "dokončeno"
             print ("state is finished")
             self.stop()
 
@@ -1340,7 +1340,7 @@ class MyApp(wx.App):
 
             #if self.port != None: #if stop is called before any connection port is not defined (and not connected )
             #  self.port.close()
-            wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Disconnected"]))
+            wx.PostEvent(self._notify_window, StatusEvent([0, 1, "Odpojení"]))
             wx.PostEvent(self._notify_window, StatusEvent([1, 1, "----"]))
             wx.PostEvent(self._notify_window, StatusEvent([2, 1, "----"]))
             wx.PostEvent(self._notify_window, StatusEvent([3, 1, "----"]))
@@ -1406,8 +1406,8 @@ class MyApp(wx.App):
                                      wx.LC_SINGLE_SEL)
 
         self.sensors.InsertColumn(0, "PID", width=70)
-        self.sensors.InsertColumn(1, "Sensor", format=wx.LIST_FORMAT_LEFT, width=320)
-        self.sensors.InsertColumn(2, "Value")
+        self.sensors.InsertColumn(1, "Senzor", format=wx.LIST_FORMAT_LEFT, width=320)
+        self.sensors.InsertColumn(2, "Hodnota")
         self.sensors.SetSize(0, 0, 800, 1500)
 
         """
@@ -1424,7 +1424,7 @@ class MyApp(wx.App):
         self.sensors_panel.Bind(wx.EVT_SIZE, OnPSize)
         ####################################################################
         """
-        self.nb.AddPage(self.sensors_panel, "Sensors")
+        self.nb.AddPage(self.sensors_panel, "Senzory")
     def build_graph_page(self):
         HOFFSET_LIST = 0
         # tID = wx.NewId()
@@ -1439,11 +1439,11 @@ class MyApp(wx.App):
                                      wx.LC_SINGLE_SEL)
 
         self.graph_list_ctrl.InsertColumn(0, "PID", width=70)
-        self.graph_list_ctrl.InsertColumn(1, "Sensor", format=wx.LIST_FORMAT_LEFT, width=320)
-        self.graph_list_ctrl.InsertColumn(2, "Value")
+        self.graph_list_ctrl.InsertColumn(1, "Senzor", format=wx.LIST_FORMAT_LEFT, width=320)
+        self.graph_list_ctrl.InsertColumn(2, "Hodnota")
 
         self.graph_list_ctrl.InsertItem(0, "")
-        self.nb.AddPage(self.graph_panel, "Graph")
+        self.nb.AddPage(self.graph_panel, "Graf")
         self.graph_list_ctrl.SetSize(0, 0, 800, 48)
         """
         ####################################################################
@@ -1473,14 +1473,14 @@ class MyApp(wx.App):
                                      wx.LC_SINGLE_SEL)
 
         self.graphs_list_ctrl.InsertColumn(0, "PID", width=70)
-        self.graphs_list_ctrl.InsertColumn(1, "Sensor", format=wx.LIST_FORMAT_LEFT, width=320)
-        self.graphs_list_ctrl.InsertColumn(2, "Value")
+        self.graphs_list_ctrl.InsertColumn(1, "Senzor", format=wx.LIST_FORMAT_LEFT, width=320)
+        self.graphs_list_ctrl.InsertColumn(2, "Hodnota")
 
         self.graphs_list_ctrl.InsertItem(0, "")
         self.graphs_list_ctrl.InsertItem(1, "")
         self.graphs_list_ctrl.InsertItem(2, "")
         self.graphs_list_ctrl.InsertItem(3, "")
-        self.nb.AddPage(self.graphs_panel, "Graphs")
+        self.nb.AddPage(self.graphs_panel, "Grafy")
         self.graphs_list_ctrl.SetSize(0, 0, 800, 126)
         """
         ####################################################################
@@ -1514,8 +1514,8 @@ class MyApp(wx.App):
                                        wx.LC_SINGLE_SEL)
 
         self.freezeframe.InsertColumn(0, "PID", width=70)
-        self.freezeframe.InsertColumn(1, "Sensor", format=wx.LIST_FORMAT_LEFT, width=320)
-        self.freezeframe.InsertColumn(2, "Value")
+        self.freezeframe.InsertColumn(1, "Senzor", format=wx.LIST_FORMAT_LEFT, width=320)
+        self.freezeframe.InsertColumn(2, "Hodnota")
         self.freezeframe.SetSize(0, 0, 800, 1500)
         """
         ####################################################################
@@ -1531,7 +1531,7 @@ class MyApp(wx.App):
         self.freezeframe_panel.Bind(wx.EVT_SIZE, OnPSize)
         ####################################################################
         """
-        self.nb.AddPage(self.freezeframe_panel, "Freeze frame")
+        self.nb.AddPage(self.freezeframe_panel, "Zastavení snímku")
 
 
     def build_DTC_page(self):
@@ -1539,8 +1539,8 @@ class MyApp(wx.App):
         # tID = wx.NewId()
         tID = wx.NewIdRef(count=1)
         self.DTCpanel = wx.Panel(self.nb, -1)
-        self.GetDTCButton = wx.Button(self.DTCpanel, -1, "Get DTC", wx.Point(15, 0))
-        self.ClearDTCButton = wx.Button(self.DTCpanel, -1, "Clear DTC", wx.Point(100, 0))
+        self.GetDTCButton = wx.Button(self.DTCpanel, -1, "Získat DTC", wx.Point(15, 0))
+        self.ClearDTCButton = wx.Button(self.DTCpanel, -1, "Vymazat DTC", wx.Point(100, 0))
 
         # bind functions to button click action
         self.DTCpanel.Bind(wx.EVT_BUTTON, self.GetDTC, self.GetDTCButton)
@@ -1549,9 +1549,9 @@ class MyApp(wx.App):
         self.dtc = self.MyListCtrl(self.DTCpanel, tID, pos=wx.Point(0, HOFFSET_LIST),
                                    style=wx.LC_REPORT | wx.SUNKEN_BORDER | wx.LC_HRULES | wx.LC_SINGLE_SEL)
 
-        self.dtc.InsertColumn(0, "Code", width=100)
-        self.dtc.InsertColumn(1, "Status", width=100)
-        self.dtc.InsertColumn(2, "Trouble code")
+        self.dtc.InsertColumn(0, "Kód", width=100)
+        self.dtc.InsertColumn(1, "Stav", width=100)
+        self.dtc.InsertColumn(2, "Kód potíží")
 
         ####################################################################
         # This little bit of magic keeps the list the same size as the frame
@@ -1640,51 +1640,51 @@ class MyApp(wx.App):
         self.nb = wx.Notebook(self.frame, -1, style=wx.NB_TOP)
 
         self.status = self.MyListCtrl(self.nb, tID, style=wx.LC_REPORT | wx.SUNKEN_BORDER)
-        self.status.InsertColumn(0, "Description", width=200)
-        self.status.InsertColumn(1, "Value")
-        self.status.Append(["Link State", "Disconnnected"])
-        self.status.Append(["Protocol", "----"])
-        self.status.Append(["Cable version", "----"])
-        self.status.Append(["COM port", "----"])
-        self.status.Append(["VIN number", "----"])
-        self.status.Append(["ELM voltage", "----"])
+        self.status.InsertColumn(0, "Popis", width=200)
+        self.status.InsertColumn(1, "Hodnota")
+        self.status.Append(["Stav spojení", "Odpojeno"])
+        self.status.Append(["Protokol", "----"])
+        self.status.Append(["Verze s kabelem", "----"])
+        self.status.Append(["Port COM", "----"])
+        self.status.Append(["VIN", "----"])
+        self.status.Append(["Napětí ELM", "----"])
 
-        self.nb.AddPage(self.status, "Status")
+        self.nb.AddPage(self.status, "Stav")
 
         self.OBDTests = self.MyListCtrl(self.nb, tID, style=wx.LC_REPORT | wx.SUNKEN_BORDER)
-        self.OBDTests.InsertColumn(0, "Description", width=300)
-        self.OBDTests.InsertColumn(1, "Available")
-        self.OBDTests.InsertColumn(2, "Complete")
-        self.nb.AddPage(self.OBDTests, "Tests")
+        self.OBDTests.InsertColumn(0, "Popis", width=300)
+        self.OBDTests.InsertColumn(1, "Dostupné na")
+        self.OBDTests.InsertColumn(2, "Kompletní")
+        self.nb.AddPage(self.OBDTests, "Testy")
 
 
-        self.OBDTests.Append(["MISFIRE_MONITORING", "---", "---"])
-        self.OBDTests.Append(["FUEL_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["COMPONENT_MONITORING", "---", "---"])
-        self.OBDTests.Append(["CATALYST_MONITORING", "---", "---"])
-        self.OBDTests.Append(["HEATED_CATALYST_MONITORING", "---", "---"])
-        self.OBDTests.Append(["EVAPORATIVE_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["SECONDARY_AIR_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["OXYGEN_SENSOR_MONITORING", "---", "---"])
-        self.OBDTests.Append(["OXYGEN_SENSOR_HEATER_MONITORING", "---", "---"])
-        self.OBDTests.Append(["EGR_VVT_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["NMHC_CATALYST_MONITORING", "---", "---"])
-        self.OBDTests.Append(["NOX_SCR_AFTERTREATMENT_MONITORING", "---", "---"])
-        self.OBDTests.Append(["BOOST_PRESSURE_MONITORING", "---", "---"])
-        self.OBDTests.Append(["EXHAUST_GAS_SENSOR_MONITORING", "---", "---"])
-        self.OBDTests.Append(["PM_FILTER_MONITORING", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 1", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 2", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 3", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 4", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 5", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 6", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 7", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 8", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 9", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 10", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 11", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 12", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ CHYBNÝCH ZÁŽEHŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ PALIVOVÉHO SYSTÉMU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KOMPONENT", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KATALYZÁTORU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ VYHŘÍVANÉHO KATALYZÁTORU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ ODPAŘOVACÍHO SYSTÉMU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ SYSTÉMU SEKUNDÁRNÍHO VZDUCHU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ OHŘÍVAČŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ SYSTÉMU EGR VVT", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KATALYZÁTORU NMHC", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ NÁSLEDNÉHO ZPRACOVÁNÍ EMISÍ NOX SCR", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ PLNICÍHO TLAKU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ SENZORU VÝFUKOVÝCH PLYNŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ PM FILTRU", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 1", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 2", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 3", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 4", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 5", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 6", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 7", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 8", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 9", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 10", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 11", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 12", "---", "---"])
 
 
 
@@ -1698,38 +1698,38 @@ class MyApp(wx.App):
 
 
         self.trace = self.MyListCtrl(self.nb, tID, style=wx.LC_REPORT | wx.SUNKEN_BORDER)
-        self.trace.InsertColumn(0, "Level", width=40)
-        self.trace.InsertColumn(1, "Message")
-        self.nb.AddPage(self.trace, "Trace")
-        self.TraceDebug(1, "Application started")
+        self.trace.InsertColumn(0, "Úroveň", width=40)
+        self.trace.InsertColumn(1, "Zpráva")
+        self.nb.AddPage(self.trace, "Stopa")
+        self.TraceDebug(1, "Zahájení aplikace")
 
         # Setting up the menu.
         self.filemenu = wx.Menu()
         self.filemenu.Append(ID_EXIT, "E&xit", " Terminate the program")
 
         self.settingmenu = wx.Menu()
-        self.settingmenu.Append(ID_CONFIG, "Configure", " Configure pyOBD")
-        self.settingmenu.Append(ID_RESET, "Connect", " Reopen and connect to device")
-        self.settingmenu.Append(ID_DISCONNECT, "Disconnect", "Close connection to device")
+        self.settingmenu.Append(ID_CONFIG, "Konfigurace", " Configure pyOBD")
+        self.settingmenu.Append(ID_RESET, "Připojení", " Reopen and connect to device")
+        self.settingmenu.Append(ID_DISCONNECT, "Odpojení", "Uzavření spojení se zařízením")
 
         self.dtcmenu = wx.Menu()
         # tady toto nastavi automaticky tab DTC a provede akci
-        self.dtcmenu.Append(ID_GETC, "Get DTCs", " Get DTC Codes")
-        self.dtcmenu.Append(ID_CLEAR, "Clear DTC", " Clear DTC Codes")
-        self.dtcmenu.Append(ID_LOOK, "Code Lookup", " Lookup DTC Codes")
+        self.dtcmenu.Append(ID_GETC, "Získat DTC", " Get DTC Codes")
+        self.dtcmenu.Append(ID_CLEAR, "Vymazat DTC", " Clear DTC Codes")
+        self.dtcmenu.Append(ID_LOOK, "Vyhledávání kódů", " Lookup DTC Codes")
 
         self.helpmenu = wx.Menu()
 
-        self.helpmenu.Append(ID_HELP_ABOUT, "About this program", " Get DTC Codes")
-        self.helpmenu.Append(ID_HELP_VISIT, "Visit program homepage", " Lookup DTC Codes")
-        self.helpmenu.Append(ID_HELP_ORDER, "Order OBD-II interface", " Clear DTC Codes")
+        self.helpmenu.Append(ID_HELP_ABOUT, "O tomto programu", " Get DTC Codes")
+        self.helpmenu.Append(ID_HELP_VISIT, "Navštivte domovskou stránku programu", " Lookup DTC Codes")
+        self.helpmenu.Append(ID_HELP_ORDER, "Objednat rozhraní OBD-II", " Clear DTC Codes")
 
         # Creating the menubar.
         self.menuBar = wx.MenuBar()
         self.menuBar.Append(self.filemenu, "&File")  # Adding the "filemenu" to the MenuBar
         self.menuBar.Append(self.settingmenu, "&OBD-II")
-        self.menuBar.Append(self.dtcmenu, "&Trouble codes")
-        self.menuBar.Append(self.helpmenu, "&Help")
+        self.menuBar.Append(self.dtcmenu, "&Trouble kódy")
+        self.menuBar.Append(self.helpmenu, "&Nápověda")
 
         self.frame.SetMenuBar(self.menuBar)  # Adding the MenuBar to the Frame content.
 
@@ -1887,39 +1887,39 @@ the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  0211
     def OnClose(self, event):
         self.ThreadControl = 666
         time.sleep(0.1)
-        #while self.senprod.state != "finished":
+        #while self.senprod.state != "dokončeno":
         #    time.sleep(0.1)
 
         self.sensors.DeleteAllItems()
         self.freezeframe.DeleteAllItems()
         self.OBDTests.DeleteAllItems()
-        self.OBDTests.Append(["MISFIRE_MONITORING", "---", "---"])
-        self.OBDTests.Append(["FUEL_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["COMPONENT_MONITORING", "---", "---"])
-        self.OBDTests.Append(["CATALYST_MONITORING", "---", "---"])
-        self.OBDTests.Append(["HEATED_CATALYST_MONITORING", "---", "---"])
-        self.OBDTests.Append(["EVAPORATIVE_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["SECONDARY_AIR_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["OXYGEN_SENSOR_MONITORING", "---", "---"])
-        self.OBDTests.Append(["OXYGEN_SENSOR_HEATER_MONITORING", "---", "---"])
-        self.OBDTests.Append(["EGR_VVT_SYSTEM_MONITORING", "---", "---"])
-        self.OBDTests.Append(["NMHC_CATALYST_MONITORING", "---", "---"])
-        self.OBDTests.Append(["NOX_SCR_AFTERTREATMENT_MONITORING", "---", "---"])
-        self.OBDTests.Append(["BOOST_PRESSURE_MONITORING", "---", "---"])
-        self.OBDTests.Append(["EXHAUST_GAS_SENSOR_MONITORING", "---", "---"])
-        self.OBDTests.Append(["PM_FILTER_MONITORING", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 1", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 2", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 3", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 4", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 5", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 6", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 7", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 8", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 9", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 10", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 11", "---", "---"])
-        self.OBDTests.Append(["MISFIRE CYLINDER 12", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ CHYBNÝCH ZÁŽEHŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ PALIVOVÉHO SYSTÉMU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KOMPONENT", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KATALYZÁTORU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ VYHŘÍVANÉHO KATALYZÁTORU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ ODPAŘOVACÍHO SYSTÉMU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ SYSTÉMU SEKUNDÁRNÍHO VZDUCHU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KYSLÍKOVÝCH SENZORŮ OHŘÍVAČŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ SYSTÉMU EGR VVT", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ KATALYZÁTORU NMHC", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ NÁSLEDNÉHO ZPRACOVÁNÍ EMISÍ NOX SCR", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ PLNICÍHO TLAKU", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ SENZORU VÝFUKOVÝCH PLYNŮ", "---", "---"])
+        self.OBDTests.Append(["MONITOROVÁNÍ PM FILTRU", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 1", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 2", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 3", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 4", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 5", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 6", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 7", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 8", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 9", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 10", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 11", "---", "---"])
+        self.OBDTests.Append(["CHYBNÝ ZÁŽEH VÁLCE 12", "---", "---"])
         self.dtc.DeleteAllItems()
 
         self.graph_list_ctrl.DeleteAllItems()
@@ -2124,15 +2124,15 @@ the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  0211
 
     def QueryClear(self, e):
         id = 0
-        diag = wx.Dialog(self.frame, id, title="Clear DTC?")
+        diag = wx.Dialog(self.frame, id, title="Vymazat DTC?")
 
         sizer = wx.BoxSizer(wx.VERTICAL)
-        sizer.Add(wx.StaticText(diag, -1, "Are you sure you wish to"), 0)
+        sizer.Add(wx.StaticText(diag, -1, "Jste si jisti, že si přejete"), 0)
         sizer.Add(wx.StaticText(diag, -1, "clear all DTC codes and "), 0)
         sizer.Add(wx.StaticText(diag, -1, "freeze frame data?      "), 0)
         box = wx.BoxSizer(wx.HORIZONTAL)
         box.Add(wx.Button(diag, wx.ID_OK, "Ok"), 0)
-        box.Add(wx.Button(diag, wx.ID_CANCEL, "Cancel"), 0)
+        box.Add(wx.Button(diag, wx.ID_CANCEL, "Zrušit"), 0)
 
         sizer.Add(box, 0)
         diag.SetSizer(sizer)
@@ -2170,7 +2170,7 @@ the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  0211
 
     def Configure(self, e=None):
         id = 0
-        diag = wx.Dialog(self.frame, id, title="Configure")
+        diag = wx.Dialog(self.frame, id, title="Konfigurace")
         sizer = wx.BoxSizer(wx.VERTICAL)
 
         ports = obd.scan_serial()
@@ -2180,35 +2180,35 @@ the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  0211
             ports.append("AUTO")
 
         # web open link button
-        self.OpenLinkButton = wx.Button(diag, -1, "Click here to order ELM-USB interface", size=(260, 30))
+        self.OpenLinkButton = wx.Button(diag, -1, "Klikněte zde pro objednání rozhraní ELM-USB", size=(260, 30))
         diag.Bind(wx.EVT_BUTTON, self.OnHelpOrder, self.OpenLinkButton)
         sizer.Add(self.OpenLinkButton)
-        rb = wx.RadioBox(diag, id, "Choose Serial Port",
+        rb = wx.RadioBox(diag, id, "Vyberte sériový port",
                          choices=ports, style=wx.RA_SPECIFY_COLS,
                          majorDimension=2)
 
         sizer.Add(rb, 0)
         baudrates = ['AUTO', "38400", "9600",  "115200", "57600", "19200", "14400", "3000000", "2000000", "1000000", "250000", "230400", "128000", "500000", "460800", "500000", "576000", "921600", "1000000", "1152000", "1500000", "2000000", "2500000", "3000000", "3500000", "4000000"]
-        brb = wx.RadioBox(diag, id, "Choose Baud Rate",
+        brb = wx.RadioBox(diag, id, "Výběr přenosové rychlosti",
                          choices=baudrates, style=wx.RA_SPECIFY_COLS,
                          majorDimension=2)
 
         sizer.Add(brb, 0)
         fb = wx.RadioBox(diag, id, "FAST or NORMAL:",
-                         choices=["FAST","NORMAL"], style=wx.RA_SPECIFY_COLS,
+                         choices=["FAST","NORMÁLNÍ"], style=wx.RA_SPECIFY_COLS,
                          majorDimension=2)
 
         sizer.Add(fb, 0)
         # timeOut input control
         timeoutPanel = wx.Panel(diag, -1)
         timeoutCtrl = wx.TextCtrl(timeoutPanel, -1, '', pos=(140, 0), size=(40, 25))
-        timeoutStatic = wx.StaticText(timeoutPanel, -1, 'Timeout:', pos=(3, 5), size=(140, 20))
+        timeoutStatic = wx.StaticText(timeoutPanel, -1, 'Čekací doba:', pos=(3, 5), size=(140, 20))
         timeoutCtrl.SetValue(str(self.SERTIMEOUT))
 
         # reconnect attempt input control
         reconnectPanel = wx.Panel(diag, -1)
         reconnectCtrl = wx.TextCtrl(reconnectPanel, -1, '', pos=(140, 0), size=(40, 25))
-        reconnectStatic = wx.StaticText(reconnectPanel, -1, 'Reconnect attempts:', pos=(3, 5), size=(140, 20))
+        reconnectStatic = wx.StaticText(reconnectPanel, -1, 'Počet opakování:', pos=(3, 5), size=(140, 20))
         reconnectCtrl.SetValue(str(self.RECONNATTEMPTS))
 
 
@@ -2220,9 +2220,7 @@ the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  0211
         if (self.BAUDRATE != 0) and (self.BAUDRATE in baudrates):
             brb.SetSelection(baudrates.index(self.BAUDRATE))
         if (self.FAST == "FAST") or (self.FAST == "NORMAL"):
-            fb.SetSelection(["FAST","NORMAL"].index(self.FAST))
-
-
+            fb.SetSelection(["FAST","NORMÁLNÍ"].index(self.FAST))
         sizer.Add(timeoutPanel, 0)
         sizer.Add(reconnectPanel, 0)
 
@@ -2250,7 +2248,7 @@ the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  0211
             BAUDRATE = self.BAUDRATE
             self.config.set("pyOBD", "BAUDRATE", self.BAUDRATE)
 
-            self.FAST = ["FAST","NORMAL"][fb.GetSelection()]
+            self.FAST = ["FAST","NORMÁLNÍ"][fb.GetSelection()]
             self.config.set("pyOBD", "FAST", self.FAST)
 
             # set and save SERTIMEOUT
